@@ -1,0 +1,319 @@
+.@{prefix}-language-type {
+  width: 100%;
+  &-of-program,
+  &-of-database {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    &-opt {
+      float: left;
+      margin-left: 1%;
+      & > span {
+        cursor: pointer;
+        color: @primary-color;
+      }
+    }
+    &-drawer {
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      &-line {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        & > span {
+          &:first-child {
+            flex-grow: 1;
+          }
+          &:last-child {
+            cursor: pointer;
+            margin-left: 9px;
+          }
+        }
+      }
+      &-driverFile {
+        &-item {
+          display: inline-flex;
+          &:hover {
+            & > i {
+              visibility: visible;
+            }
+          }
+          & > i {
+            cursor: pointer;
+            visibility: hidden;
+            margin-left: 3px;
+            &:hover {
+              color: @primary-hover;
+            }
+          }
+          & + & {
+            padding-left: 8px;
+          }
+        }
+        & > span {
+          &:first-child {
+            overflow: scroll;
+            white-space: nowrap;
+          }
+          &:last-child {
+            color: @primary-color;
+          }
+        }
+      }
+      &-header {
+        display: flex;
+        padding: 5px;
+        align-items: center;
+        &-svg {
+          width: 10%;
+          min-width: 100px;
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 0;
+          position: relative;
+          &:before {
+            content: '';
+            position: absolute;
+            height: 80%;
+            top: 10%;
+            right: 0;
+            background-color: @primary-second-border-color;
+          }
+          & > div:first-child {
+            width: 80px;
+            height: 80px;
+            padding: 5px;
+            & > svg {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        &-form {
+          flex-grow: 1;
+          border-left: 1px solid @primary-second-border-color;
+        }
+      }
+      &-body {
+        flex-grow: 1;
+        overflow: scroll;
+        display: flex;
+        &-template,
+        &-form,
+        &-main {
+          display: flex;
+          flex-direction: column;
+          & > h3 {
+            margin: 5px 0;
+          }
+        }
+        &-template,
+        &-main {
+          flex-grow: 1;
+        }
+        &-form {
+          width: 300px;
+          &-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            & > span {
+              display: inline-block;
+              margin-bottom: 5px;
+            }
+          }
+        }
+        &-main {
+          padding: 5px;
+          height: 100%;
+          overflow-y: scroll;
+          margin-left: 5px;
+          border-radius: 5px;
+          border: 1px solid @primary-second-border-color;
+          &-tab {
+            &-extra {
+              color: @primary-color;
+              cursor: pointer;
+              margin-right: 10px;
+              &-disable {
+                cursor: not-allowed !important;
+              }
+            }
+            &-test {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              & > span:nth-child(2) {
+                margin-right: 3px;
+              }
+              & > span:first-child {
+                margin-right: 20px;
+                cursor: pointer;
+                color: @primary-color;
+              }
+            }
+          }
+          &-empty {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            & > div {
+              text-align: center;
+              & > div {
+                font-size: 12px;
+                color: @third-font-color;
+                margin-bottom: 5px;
+              }
+            }
+          }
+        }
+        & .@{prefix}-components-simpletab-body-item {
+          & > div {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      &-bottom {
+        position: fixed;
+        bottom: 0;
+        right: 5px;
+        padding: 5px;
+        //line-height: 38px;
+        color: @third-font-color;
+      }
+    }
+    &-header {
+      position: relative;
+      height: 40px;
+      & .@{prefix}-components-button {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+      }
+      & > div {
+        position: absolute;
+        right: 5px;
+        top: 10px;
+        color: @warring-color;
+      }
+    }
+    &-body {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  &-item {
+    padding: 5px;
+    width: 19%;
+    margin-bottom: 10px;
+    border: 1px solid @primary-second-border-color;
+    transition: all .5s ease-in-out;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    &:not(:nth-child(5n)) {
+      margin-right: 1%;
+    }
+    &-svg {
+      width: 120px;
+      height: 120px;
+      & > svg {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+      }
+    }
+    &-content {
+      flex-grow: 1;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      padding: 15px 0;
+      width: calc(100% - 120px);
+      &-title {
+        font-size: 19px;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+        text-overflow: ellipsis;
+      }
+      &-arrow {
+        display: inline-block;
+        margin-right: 10px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        z-index: 99;
+        background-color: @background-color;
+        transition: all .3s ease-in-out;
+      }
+      & > span {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transition: all .3s ease-in-out;
+      }
+    }
+    &:hover {
+      box-shadow:-1px 0px 43px 11px @background-third-color;
+      -webkit-box-shadow:-1px 0px 43px 11px @background-third-color;
+      -moz-box-shadow:-1px 0px 43px 11px @background-third-color;
+    }
+  }
+  &-immersive {
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    &-title {
+      display: inline-block;
+      height: 25px;
+      line-height: 25px;
+      font-weight: bold;
+      & > span {
+        cursor: pointer;
+        color: @four-font-color;
+      }
+    }
+    & > div:last-child {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &-json {
+      width: 30%;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    &-dot,
+    &-display {
+      width: 100%;
+      height: 50%;
+      margin-bottom: 10px;
+    }
+    &-json,
+    &-dot,
+    &-display {
+      display: flex;
+      flex-direction: column;
+      & > div {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+html body {
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    color: @font-color;
+    background-color: @background-color;
+}
+* {
+    font-family: Chinese Quote,-apple-system,Verdana,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+.ace_editor * {
+    font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: 0 0;
+    cursor: pointer
+}
+::-webkit-scrollbar-thumb {
+    background-color: @scrollbar-color;
+    border-radius: 10px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    background-clip: padding-box
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: @scrollbar-active-color
+}
+
+::-webkit-scrollbar-thumb:active,::-webkit-scrollbar-thumb:hover {
+    border-width: 1px;
+    background-color: @scrollbar-active-color;
+    cursor: pointer
+}
+@keyframes loading {
+    0%   { transform: rotate(0deg)}
+    25%  { transform: rotate(90deg)}
+    50%  { transform: rotate(180deg)}
+    75%  { transform: rotate(270deg)}
+    100% { transform: rotate(360deg)}
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% {  transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid @primary-border-color;
+    th, td {
+        border: 1px solid @primary-border-color;
+    }
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+
+body[theme='themeNigh'] {
+    filter: invert(93%) hue-rotate(180deg);
+    background: #151515;
+}

@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "node1",
+      "shape": "rect",
+      "x": 40,
+      "y": 40,
+      "width": 100,
+      "height": 40,
+      "label": "hello",
+      "data": {
+        "cellType": "rect"
+      },
+      "attrs": {
+        "body": {
+          "stroke": "#8f8f8f",
+          "strokeWidth": 1,
+          "fill": "#fff",
+          "rx": 6,
+          "ry": 6
+        },
+        "text": {
+          "event": "link:click"
+        }
+      },
+      "tools": [
+        "node-editor"
+      ],
+      "ports": [
+        {
+          "id": "port1",
+          "attrs": {
+            "circle": {
+              "r": 4,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        {
+          "id": "port4",
+          "attrs": {
+            "circle": {
+              "r": 4,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "node2",
+      "shape": "rect",
+      "x": 160,
+      "y": 180,
+      "width": 100,
+      "height": 40,
+      "label": "world",
+      "data": {
+        "cellType": "rect"
+      },
+      "attrs": {
+        "body": {
+          "stroke": "#8f8f8f",
+          "strokeWidth": 1,
+          "fill": "#fff",
+          "rx": 6,
+          "ry": 6
+        },
+        "text": {
+          "event": "link:click"
+        }
+      },
+      "tools": [
+        "node-editor"
+      ],
+      "ports": [
+        {
+          "id": "port2",
+          "attrs": {
+            "circle": {
+              "r": 4,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        {
+          "id": "port3",
+          "attrs": {
+            "circle": {
+              "r": 4,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "zIndex": 0,
+      "shape": "edge",
+      "source": {
+        "cell": "node2",
+        "port": "port2"
+      },
+      "target": {
+        "cell": "node1",
+        "port": "port1"
+      },
+      "label": "pdmaas",
+      "tools": [
+        "edge-editor"
+      ],
+      "data": {
+        "cellType": "edge"
+      }
+    }
+  ]
+}

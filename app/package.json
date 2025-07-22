@@ -1,0 +1,19 @@
+{
+  "name": "PDMaas-CE",
+  "version": "2.1.6",
+  "description": "PDMaas-元数建模",
+  "main": "./build/main.js",
+  "repository": {
+    "type": "git",
+    "url": "empty"
+  },
+  "author": {
+    "name": "qliu",
+    "email": "qliu@405go.cn"
+  },
+  "homepage": "empty",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "2.1.2"
+  }
+}

@@ -1,0 +1,167 @@
+.@{prefix}-type-operationformat {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  .operationFormatTitle {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    & > span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+    }
+    & > span:first-child {
+      font-weight: bold;
+    }
+  }
+  .operationFormatBodyBorder {
+    margin-top: 10px;
+    border: 1px solid @primary-border-color;
+    flex-grow: 1;
+    overflow-x: hidden;
+  }
+  &-left {
+    width: calc(40vw - 55px);
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    &-title {
+      .operationFormatTitle();
+      & > span:last-child {
+        color: @third-font-color;
+        cursor: pointer;
+      }
+    }
+    &-body {
+      .operationFormatBodyBorder();
+
+      & > span {
+        display: inline-block;
+        //margin-left: 2%;
+        width: 100%;
+        white-space: nowrap;
+
+        & > span {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+
+        &:first-child {
+          margin-top: 10px;
+        }
+        & > span {
+          display: inline-block;
+          //margin-left: 1%;
+          &:first-child {
+            width: 65%;
+            margin-top: 5px;
+            padding-left: 9px;
+          }
+        }
+        &:nth-child(2) ~ span {
+          & > span:first-child {
+            color: @primary-color;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  &-right {
+    width: calc(60vw - 75px);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    &-title {
+      .operationFormatTitle();
+      & > span {
+        &:nth-child(2) {
+          & > i {
+            padding-right: 5px;
+          }
+          color: @warring-color;
+        }
+      }
+    }
+    &-body {
+      .operationFormatBodyBorder();
+      display: flex;
+      flex-direction: column;
+      & > div {
+        &:first-child {
+          display: flex;
+          flex-direction: row;
+          height: 100%;
+          & > div {
+            height: 100%;
+            &:first-child {
+              width: 60%;
+              margin-left: 1%;
+              margin-right: 1%;
+              & > span {
+                &:first-child {
+                  & > span {
+                    color: @four-font-color;
+                    padding-left: 10px;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+            &:last-child {
+              width: 37%;
+            }
+            & > span {
+              display: inline-block;
+              &:first-child {
+                text-align: center;
+                width: 100%;
+                font-weight: bold;
+                padding-bottom: 5px;
+                height: 40px;
+                line-height: 40px;
+              }
+              &:last-child {
+                height: calc(100% - 40px);
+                width: 100%;
+                & > div {
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+        &:nth-child(2) {
+          display: flex;
+          flex-direction: column;
+          margin-top: 5px;
+          margin-left: 1%;
+          & > span {
+            width: 100%;
+            display: inline-block;
+            &:first-child {
+              width: 80px;
+              line-height: 20px;
+              font-weight: bold;
+              white-space: nowrap;
+            }
+            &:last-child {
+              width: calc(99%);
+            }
+          }
+        }
+        &:last-child {
+          margin: 10px auto;
+        }
+      }
+    }
+  }
+
+}

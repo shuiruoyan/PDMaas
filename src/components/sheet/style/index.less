@@ -1,0 +1,48 @@
+.@{prefix}-components-sheet {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  &-content {
+    width: 100%;
+    height: calc(100% - 30px);
+  }
+  &-opt {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    & > span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 12px;
+      padding: 0 10px;
+      cursor: pointer;
+      background: @primary-color;
+      color: @background-color;
+      & > span:first-child {
+        margin-right: 5px;
+        padding-right: 5px;
+        border-right: 1px solid @primary-border-color;
+      }
+    }
+  }
+}
+.luckysheet-input-box, #luckysheet-rightclick-menu {
+  z-index: 9999;
+}
+.luckysheet-stat-area {
+  background: @background-color;
+}
+#luckysheet-cols-rows-data {
+  .luckysheetColsRowsHandleAdd_custom {
+    border-top: 1px solid #ebebeb;
+    margin-top: 6px;
+    padding-top: 6px;
+  }
+  .luckysheetColsRowsHandleAdd_custom + .luckysheetColsRowsHandleAdd_custom {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

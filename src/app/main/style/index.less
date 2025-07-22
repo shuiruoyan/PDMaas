@@ -1,0 +1,353 @@
+.@{prefix}-main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 32px);
+  width: 100%;
+  &-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid @primary-border-color;
+    padding: 8px;
+    .@{prefix}-components-groupicon-item-content > span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    i {
+      font-size: 18px !important;
+    }
+    &-project {
+      padding: 0 8px 0 0;
+      border-right: 1px solid @primary-border-color;
+      width: 300px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-start;
+      & i:hover {
+        cursor: pointer;
+      }
+      & i:first-child {
+        margin-right: 20px;
+      }
+      & > img {
+        width: 21px;
+        height: 21px;
+        object-fit: cover;
+      }
+      & > img + span {
+        margin-left: 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 16px;
+        white-space: nowrap;
+        flex-grow: 1;
+      }
+      & > span {
+        display: inline-block;
+      }
+      & > span + span {
+        margin-left: 8px;
+      }
+    }
+
+    &-review {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 9px;
+      padding-right: 9px;
+      width: calc(100% - 565px - 115px);
+      & > div + div {
+        margin-left: 40px;
+      }
+      & > div {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    &-tools {
+      color: @second-font-color;
+      width: calc(100% - 565px - 115px);
+      flex-grow: 1;
+      white-space: nowrap;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 20px !important;
+      .@{prefix}-components-groupicon-item-content-disable {
+        color: @third-font-color !important;
+      }
+      & > span:nth-child(1) > span:nth-child(3) {
+        color: @four-font-color;
+        cursor: default;
+        span {
+          cursor: default;
+        }
+      }
+      & > span {
+        display: flex;
+        flex-direction: row;
+        & > span {
+          cursor: pointer;
+          display: inline-flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin-left: 20px !important;
+          min-width: 80px;
+          & > i {
+            margin-right: 5px;
+          }
+        }
+      }
+      &-time {
+        display: inline-block;
+        width: 300px;
+        &-left {
+          &:hover + span {
+            opacity: 1 !important;
+            transition: opacity 0.25s;
+          }
+          white-space: nowrap;
+        }
+
+        &-center {
+          margin-left: 8px;
+          color: @success-color;
+        }
+
+        &-right {
+          cursor: auto;
+          margin-left: 8px;
+          transition: opacity 0.25s;
+          opacity: 0;
+        }
+      }
+    }
+    &-work {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-grow: 1;
+      justify-content: space-between;
+      & > span:first-child {
+        font-size: 12px;
+        margin-right: 8px;
+      }
+      & > span:last-child {
+       & > i {
+         margin-right: 5px;
+       }
+      }
+      & > span:nth-child(2) {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 100%;
+        & > span{
+          cursor: pointer;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 2px solid @primary-border-color;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: -3px;
+          background: @background-color;
+          line-height: 20px;
+        }
+        & > span:nth-child(1){
+          left: 0;
+          z-index: 5;
+        }
+        & > span:nth-child(2){
+          left: 15px;
+          z-index: 4;
+        }
+        & > span:nth-child(3){
+          left: 30px;
+          z-index: 3;
+        }
+        & > span:nth-child(4){
+          left: 45px;
+          z-index: 2;
+        }
+        & > span:nth-child(5){
+          left: 60px;
+          z-index: 1;
+        }
+        & > span:nth-child(6){
+          left: 75px;
+          z-index: 0;
+        }
+      }
+    }
+    &-success {
+      //background: @success-color;
+      //display: flex;
+      //flex-direction: row;
+      //justify-content: center;
+      //align-items: center;
+      margin-right: 5px;
+      padding: 2px;
+      width: 18px;
+      height: 18px;
+      border-radius: 15px;
+      color: @success-color;
+    }
+  }
+  &-body {
+    flex-grow: 1;
+    display: flex;
+    height: 0;
+    flex-direction: row;
+    &-left {
+      flex-shrink: 0;
+      height: 100%;
+      overflow: auto;
+      width: 60px;
+      padding: 30px 0;
+      border-right: 1px solid @primary-border-color;
+      i {
+        font-size: 22px !important;
+      }
+      &-item {
+        color: @third-font-color;
+        cursor: pointer;
+        padding: 5px 3px;
+        position: relative;
+        & + & {
+          margin-top: 10px;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-disable {
+          color: @third-font-color;
+          &:hover {
+            cursor: not-allowed !important;
+          }
+        }
+        &-selected {
+          &:before {
+            content: " ";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 3px;
+            height: 100%;
+            background: @primary-color;
+          }
+          background-color: @second-primary-color;
+          color: @primary-color;
+        }
+      }
+    }
+    &-right {
+      flex-grow: 1;
+      &-item {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &-footer {
+    border-top: 1px solid @primary-border-color;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    & > div:first-child {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      & > div:last-child {
+        font-size: 12px;
+        & > span {
+          margin-left: 10px;
+        }
+      }
+      & > div + div {
+        margin-left: 20px;
+      }
+    }
+    &-item {
+      & + & {
+        margin-left: 40px;
+      }
+      & > span:first-child {
+        color: @third-font-color;
+        margin-right: 5px;
+      }
+      & > span:last-child {
+        cursor: pointer;
+        i {
+          margin-left: 3px;
+        }
+      }
+    }
+    &-status {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      @keyframes ws-twinkle {
+        0% {
+          opacity: 1;
+        }
+        25% {
+          opacity: 0.5;
+        }
+        50% {
+          opacity: 0;
+        }
+        75% {
+          opacity: 0.5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      &-error {
+        color: @danger-color;
+        &-list {
+          padding: 5px;
+          & > div:first-child {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          & > div:last-child {
+            & > div {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+            }
+            & > div + div {
+              margin-top: 5px;
+              padding-top: 5px;
+              border-top: 1px solid @primary-border-color;
+            }
+          }
+        }
+      }
+      &-success {
+        color: @success-color;
+      }
+      &-warring {
+        color: @warring-color;
+        animation: ws-twinkle 1.5s linear 0s infinite;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.@{prefix}-container-model-mind-mini {
+  display: none;
+  position: absolute;
+  right: 18px;
+  bottom: 60px;
+  z-index: 1;
+  border-radius: 2px;
+  box-shadow: 0 0 4px 0 #dfe3eb;
+  width: 370px;
+  user-select: none;
+  background: @background-color;
+ // padding: 10px;
+  height: 220px;
+  & > div:first-child {
+    position: absolute;
+    left: 0;
+    transform-origin: left top;
+  }
+  & > div:last-child {
+    position: absolute;
+    border: 2px solid @primary-color;
+    transition: all 0.3s;
+  }
+}

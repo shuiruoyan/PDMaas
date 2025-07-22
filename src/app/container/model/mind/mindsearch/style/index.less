@@ -1,0 +1,78 @@
+.@{prefix}-container-model-mind-search {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  padding: 10px;
+  box-shadow: 0 0 6px 2px @primary-border-color;
+  border-radius: 3px;
+  &-close {
+    position: absolute;
+    right: -2px;
+    top: -7px;
+    cursor: pointer;
+  }
+  & > div {
+    display: flex;
+    flex-direction: row;
+  }
+  &-search {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    &-count {
+      position: absolute;
+      right: 5px;
+      top: 2px;
+    }
+    input {
+      padding-left: 23px !important;
+    }
+    &-replace {
+      user-select: none;
+      border: 1px solid @primary-border-color;
+      padding: 2px 5px;
+      cursor: pointer;
+      background: @background-second-color;
+    }
+    &-icon {
+      position: absolute;
+      left: 5px;
+      top: 2px;
+    }
+  }
+  &-replace {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    input {
+      padding-left: 23px !important;
+    }
+    &-icon {
+      position: absolute;
+      left: 5px;
+      top: 0;
+    }
+    &-cancel {
+      user-select: none;
+      margin-top: 10px;
+      border: 1px solid @primary-border-color;
+      padding: 2px 5px;
+      cursor: pointer;
+      background: @background-second-color;
+    }
+  }
+  &-footer {
+    user-select: none;
+    margin-top: 10px;
+    justify-content: end;
+    & > span + span {
+      margin-left: 10px;
+    }
+    & > span {
+      border: 1px solid @primary-border-color;
+      padding: 2px 5px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.@{prefix}-components-list {
+  width: 100%;
+  height: 100%;
+  &-item {
+    padding: 5px;
+    border-bottom: 1px solid @primary-border-color;
+    &-nohover {
+      background: none !important;
+    }
+    &:hover {
+      background: @background-second-color;
+    }
+    &-end {
+      line-height: 30px;
+      color: @primary-border-color;
+      font-size: 12px;
+      text-align: center;
+    }
+    &-load {
+      line-height: 30px;
+      color: @primary-color;
+      font-size: 12px;
+      text-align: center;
+      cursor: pointer;
+      & > span {
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  &-empty {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: @four-font-color;
+  }
+}

@@ -1,0 +1,42 @@
+.@{prefix}-container-model-mind-tag {
+  width: 300px;
+  padding: 10px 5px 5px 5px;
+  &-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  &-item {
+    border-radius: 3px;
+    color: @background-color;
+    padding: 2px 5px;
+    position: relative;
+    & + & {
+      margin-left: 5px;
+    }
+    &:hover {
+      & > i {
+        display: inline-flex;
+      }
+    }
+    & > i {
+      position: absolute;
+      display: none;
+      background: @danger-color;
+      border-radius: 50%;
+      color: @background-color;
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      align-items: center;
+      top: -7px;
+      right: -3px;
+    }
+  }
+  &-footer {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

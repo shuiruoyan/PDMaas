@@ -1,0 +1,413 @@
+.@{prefix}-components-table {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  user-select: none;
+  outline: none;
+  .selected() {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: @background-color;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    i {
+      font-size: 12px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    background: radial-gradient(circle at top left, @primary-color, @primary-color 15px, transparent 0) !important;
+
+  }
+  &-body {
+    &-resize {
+      position: absolute;
+      left: -4px;
+      top: 0;
+      height: 100%;
+      border-right: 3px dashed @primary-color;
+      z-index: 100;
+      cursor: col-resize;
+    }
+    &-header {
+      & > span > span:first-child {
+        width: 100%;
+      }
+      &-index {
+        z-index: 2;
+        position: sticky !important;
+        left: 0;
+      }
+      &-selected {
+        .selected();
+      }
+      &-checkbox {
+        pointer-events: auto;
+      }
+      &-lock {
+        pointer-events: auto;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 10px;
+        &-fixed {
+          opacity: 1 !important;
+        }
+      }
+      &-filter {
+        position: absolute;
+        right: 3px;
+        top: 5px;
+        display: inline-block;
+        & > i {
+          pointer-events: auto;
+          cursor: pointer;
+        }
+        &-value {
+          color: @primary-color;
+        }
+        &-input {
+          pointer-events: auto;
+          position: absolute;
+          left: 0;
+          top: 2px;
+          z-index: 1;
+        }
+      }
+      &-sort {
+        position: absolute;
+        right: 3px;
+        top: 0;
+        display: inline-block;
+        height: 100%;
+        &-up {
+          & > i:first-child {
+            color: @primary-color;
+          }
+        }
+        &-down {
+          & > i:last-child {
+            color: @primary-color;
+          }
+        }
+        & > i {
+          &::before {
+            pointer-events: none;
+          }
+          display: flex;
+          align-items: center;
+          height: 10px;
+          pointer-events: auto;
+          cursor: pointer;
+          position: absolute;
+        }
+        & > i:first-child {
+          top: 7px;
+          right: 0;
+        }
+        & > i:last-child {
+          bottom: 7px;
+          right: 0;
+        }
+      }
+      z-index: 3;
+      position: sticky;
+      top: 0;
+      //height: 30px;
+      text-align: center;
+      color: @third-font-color;
+      & > span:not(:last-child) {
+        &:before {
+          position: absolute;
+          right: 0;
+          top: 7px;
+          content: "";
+          height: 20px;
+          border-left: 1px solid @primary-second-border-color;
+        }
+      }
+      & > span {
+        pointer-events: none;
+        position: relative;
+        border-bottom: 1px solid @primary-second-border-color;
+        background: @background-color;
+        transition: width 0.2s;
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+      }
+      &-column-resize {
+        & > span:first-child {
+          width: 100%;
+        }
+        & > .@{prefix}-components-table-body-header-lock {
+          opacity: 0;
+          transition: opacity 0.25s;
+        }
+        &:hover {
+          & > .@{prefix}-components-table-body-header-lock {
+            opacity: 1;
+            transition: opacity 0.25s;
+          }
+        }
+        transition: width 0.2s;
+        &:before {
+          pointer-events: auto;
+          cursor: col-resize;
+        }
+      }
+    }
+    &-header + &-item {
+      & > span {
+        border-top: none !important;
+      }
+    }
+    &-empty {
+      text-align: center;
+      padding: 10px;
+    }
+    &-item {
+      &-index {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+        display: inline-flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        cursor: pointer;
+        & > span:first-child {
+          visibility: hidden;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+      .@{prefix}-components-tree-select-search-input, .@{prefix}-components-multipl-tree-select-search-input {
+        border: 1px solid transparent;
+      }
+      .@{prefix}-components-tree-select-input, .@{prefix}-components-multipl-tree-select-input {
+        border: 1px solid transparent;
+      }
+      .@{prefix}-components-tree-select, .@{prefix}-components-multipl-tree-select {
+        width: 100%;
+      }
+      .@{prefix}-components-tree-select-search-input:has(input:focus), .@{prefix}-components-multipl-tree-select-search-input:has(input:focus) {
+        input {
+          background: @background-color !important;
+        }
+        background: @background-color !important;
+      }
+      .@{prefix}-components-tree-select-input:has(input:focus), .@{prefix}-components-multipl-tree-select-input:has(input:focus) {
+        input {
+          background: @background-color !important;
+        }
+        background: @background-color !important;
+      }
+      .@{prefix}-components-input-blur {
+        border-color: transparent !important;
+        input {
+          text-align: inherit;
+        }
+      }
+      .@{prefix}-components-textarea-input-blur {
+        border-color: transparent !important;
+        textarea {
+          text-align: inherit;
+        }
+      }
+      .@{prefix}-components-multiple-select-data-normal {
+        border-color: transparent !important;
+      }
+      .@{prefix}-components-numberinput {
+        border-color: transparent !important;
+        &:not(:focus) {
+          text-align: inherit;
+        }
+        &:focus {
+          background: @background-color;
+          border-color: @primary-color !important;
+        }
+      }
+      .@{prefix}-components-input {
+        & > span:first-child {
+          &:hover {
+            border-color: transparent;
+          }
+        }
+      }
+      .@{prefix}-components-textarea-input {
+        & > span:first-child {
+          &:hover {
+            border-color: transparent;
+          }
+        }
+      }
+      & > span + span {
+        //border-left: 1px solid @primary-border-color;
+      }
+      .hover() {
+        .@{prefix}-components-tree-select-input, .@{prefix}-components-multipl-tree-select-input {
+          input {
+            background: @background-second-color !important;
+          }
+        }
+        .@{prefix}-components-tree-select-search-input, .@{prefix}-components-multipl-tree-select-search-input {
+          input {
+            background: @background-second-color !important;
+          }
+        }
+        .@{prefix}-components-input-blur {
+          input {
+            background: @background-second-color !important;
+          }
+        }
+        .@{prefix}-components-textarea-input-blur {
+          textarea {
+            background: @background-second-color !important;
+          }
+        }
+        .@{prefix}-components-multiple-select-data-normal, .@{prefix}-components-numberinput:not(:focus) {
+          background: @background-second-color !important;
+        }
+      }
+      &-twinkle {
+        @keyframes row-twinkle {
+          from {
+            background: @background-yellow;
+          }
+          to {
+            background: @background-color;
+          }
+        }
+        .@{prefix}-components-input-blur {
+          input {
+            background: transparent !important;
+          }
+        }
+        .@{prefix}-components-textarea-input-blur {
+          textarea {
+            background: transparent !important;
+          }
+        }
+        .@{prefix}-components-multiple-select-data-normal, .@{prefix}-components-numberinput:not(:focus) {
+          background: transparent !important;
+        }
+        & > span {
+          animation: row-twinkle 0.3s linear 0s 3;;
+        }
+      }
+      &:hover {
+        .hover();
+        & > span {
+          background: @background-second-color !important;
+        }
+      }
+      & > span {
+        background: @background-color;
+      }
+      &:last-child {
+        & > span {
+          border-bottom: 1px solid @primary-second-border-color;
+        }
+      }
+      &-check {
+        .@{prefix}-components-table-body-item-index {
+          & > span:first-child {
+            .selected();
+          }
+        }
+        &-disable {
+          .@{prefix}-components-table-body-item-index {
+            cursor: not-allowed;
+            color: @third-font-color;
+          }
+        }
+      }
+    }
+    &-item , &-header{
+      //& > span[style*='sticky'] + span:not([style*='sticky']) {
+      //  border-right: 1px solid red;
+      //}
+      //& > span:not([style*='sticky']) + span[style*='sticky'] {
+      //  border-left: 1px solid red;
+      //}
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: nowrap;
+      & > span {
+        //&:first-child {
+        //  text-align: center;
+        //  background: @background-color;
+        //  position: sticky;
+        //  left: 0;
+        //  z-index: 2;
+        //}
+        &:last-child {
+          //border-right: 1px solid @primary-border-color;
+        }
+        padding: 2px;
+        flex-shrink: 0;
+        height: 100%;
+        display: inline-block;
+        border-top: 1px solid @primary-second-border-color;
+        //border-left: 1px solid @primary-border-color;
+      }
+    }
+    &-fixed-left-last {
+      &:after {
+        transition: box-shadow 0.3s;
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 30px;
+        transform: translateX(100%);
+        top: 0;
+        pointer-events: none;
+        box-shadow: inset 10px 0 8px -8px @primary-second-border-color;
+      }
+      &:before {
+        display: none;
+      }
+    }
+    &-fixed-right-first {
+      &:after {
+        transition: box-shadow 0.3s;
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 30px;
+        transform: translateX(-100%);
+        top: 0;
+        pointer-events: none;
+        box-shadow: inset -10px 0 8px -8px @primary-second-border-color;
+      }
+    }
+  }
+  &-cell {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    input, .@{prefix}-components-input, .@{prefix}-components-textarea-input  {
+      width: 100%;
+    }
+  }
+  &-scroll {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, @background-color);
+  }
+}

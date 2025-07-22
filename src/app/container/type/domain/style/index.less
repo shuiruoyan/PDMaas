@@ -1,0 +1,56 @@
+.@{prefix}-biz-domain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  z-index: -5;
+  &-header {
+    top: 0;
+    height: 40px;
+    position: sticky;
+    z-index: 99;
+    background-color: @background-color;
+    & > span {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      &:first-child {
+        display: flex;
+        flex-direction: row;
+        left: 0;
+        & > span {
+          cursor: pointer;
+          & + span {
+            margin-left: 9px;
+          }
+          &:last-child {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            & > .@{prefix}-components-switch {
+              margin-right: 6px;
+            }
+          }
+        }
+      }
+      &:last-child {
+        right: 0;
+        color: @warring-color;
+      }
+    }
+  }
+  &-table {
+    flex-grow: 1;
+    //height: 800px;
+  }
+  &-drawer {
+    width: 100%;
+    padding: 10px;
+  }
+  &-font-primary {
+    cursor: pointer;
+    color: @primary-color;
+  }
+}

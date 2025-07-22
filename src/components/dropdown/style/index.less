@@ -1,0 +1,43 @@
+.@{prefix}-components-dropdown {
+  &-container {
+    position: absolute;
+    z-index: 999;
+    background: @background-color;
+    box-shadow: 0 0 6px 2px @primary-border-color;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px 0;
+    color: @font-color;
+    border: 1px solid @primary-border-color;
+    overflow: auto;
+  }
+  &-item {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    &-line {
+      height: 1px;
+      background: @primary-second-border-color;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+    &-group {
+      font-size: 12px;
+      padding: 5px 10px;
+      color: @third-font-color;
+    }
+    &-disable {
+      color: @third-font-color;
+      &:hover {
+        cursor: not-allowed !important;
+      }
+    }
+    padding: 5px 10px 5px 20px;
+    &:hover {
+      cursor: pointer;
+      color: @primary-color;
+      background-color: @third-primary-color;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.@{prefix}-components-radio {
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  &-checked {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    pointer-events: none;
+    color: @primary-color;
+    z-index: 1;
+    //margin: 0 5px;
+    top: 5px;
+    font-size: 16px;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    & > i {
+      font-size: 20px;
+    }
+  }
+  &-unchecked {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    pointer-events: none;
+    color: @third-font-color;
+    z-index: 1;
+    //margin: 0 5px;
+    top: 5px;
+    font-size: 16px;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    & > i {
+      font-size: 20px;
+    }
+  }
+  & > input {
+    height: 25px;
+    cursor: pointer;
+    opacity: 0;
+    vertical-align: middle;
+    margin: 0 3px;
+  }
+  &-children {
+    line-height: 25px;
+    height: 25px;
+  }
+  &-row {
+    & + & {
+      margin-left: 25px;
+    }
+  }
+}

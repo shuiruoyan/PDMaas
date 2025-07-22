@@ -1,0 +1,779 @@
+{
+  "userId": "BREU3SAEM7AAB",
+  "userName": "admin",
+  "realName": "曹腾",
+  "nickName": "曹腾",
+  "userType": null,
+  "avatar": null,
+  "gender": "1",
+  "birth": "2024-03-13",
+  "email": "15161725474@163.com",
+  "idCardNo": "320825199005147788",
+  "mobilePhone": "15161725474",
+  "employeeCode": null,
+  "status": "2",
+  "intro": "我是十常侍曹腾",
+  "org": {
+    "orgId": "BPCYI6AMM7MAB",
+    "orgCode": "DA_WEI_JIN_RONG",
+    "orgName": "大魏金融",
+    "fullName": "中华大魏金融股份公司",
+    "orgLevel": "Department",
+    "orgType": "Department",
+    "peerOrder": 1,
+    "parentId": "BPCYIYZOA7MAC",
+    "leader": "BPCYLUNQI4QAB",
+    "status": "1",
+    "tenant": null
+  },
+  "tenant": null,
+  "prefers": null,
+  "permissionList": [
+    {
+      "nsKey": "root.clab",
+      "type": "MENU",
+      "name": "团队空间"
+    },
+    {
+      "nsKey": "clab.team",
+      "type": "FUNC",
+      "name": "团队管理"
+    },
+    {
+      "nsKey": "clab.team.create",
+      "type": "FUNC",
+      "name": "创建团队"
+    },
+    {
+      "nsKey": "clab.team.update",
+      "type": "FUNC",
+      "name": "修改团队"
+    },
+    {
+      "nsKey": "clab.team.delete",
+      "type": "FUNC",
+      "name": "解散团队"
+    },
+    {
+      "nsKey": "clab.project",
+      "type": "FUNC",
+      "name": "项目管理"
+    },
+    {
+      "nsKey": "clab.project.category",
+      "type": "FUNC",
+      "name": "目录"
+    },
+    {
+      "nsKey": "clab.project.category.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.category.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.category.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.category.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.category.resort",
+      "type": "FUNC",
+      "name": "排序"
+    },
+    {
+      "nsKey": "clab.project.pm",
+      "type": "FUNC",
+      "name": "项目管理"
+    },
+    {
+      "nsKey": "clab.project.pm.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.pm.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.pm.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.pm.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.pm.transfer",
+      "type": "FUNC",
+      "name": "转移目录"
+    },
+    {
+      "nsKey": "clab.project.po",
+      "type": "FUNC",
+      "name": "项目操作"
+    },
+    {
+      "nsKey": "clab.project.po.open",
+      "type": "FUNC",
+      "name": "打开项目"
+    },
+    {
+      "nsKey": "clab.project.po.model",
+      "type": "FUNC",
+      "name": "模型设计"
+    },
+    {
+      "nsKey": "clab.project.po.model.category",
+      "type": "FUNC",
+      "name": "分类目录"
+    },
+    {
+      "nsKey": "clab.project.po.model.category.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.po.model.category.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.po.model.category.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.po.model.category.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.po.model.concept",
+      "type": "FUNC",
+      "name": "概念模型"
+    },
+    {
+      "nsKey": "clab.project.po.model.concept.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.po.model.concept.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.po.model.concept.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.po.model.concept.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.po.model.logic",
+      "type": "FUNC",
+      "name": "逻辑模型"
+    },
+    {
+      "nsKey": "clab.project.po.model.logic.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.po.model.logic.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.po.model.logic.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.po.model.logic.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.po.model.physic",
+      "type": "FUNC",
+      "name": "物理模型"
+    },
+    {
+      "nsKey": "clab.project.po.model.physic.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.po.model.physic.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.po.model.physic.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.po.model.physic.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.po.model.mind",
+      "type": "FUNC",
+      "name": "思维导图"
+    },
+    {
+      "nsKey": "clab.project.po.model.mind.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.po.model.mind.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.po.model.mind.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.po.model.mind.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.project.po.model.flow",
+      "type": "FUNC",
+      "name": "流程图"
+    },
+    {
+      "nsKey": "clab.project.po.model.flow.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.project.po.model.flow.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.project.po.model.flow.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.project.po.model.flow.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "name": "导入模型",
+      "nsKey": "clab.project.po.model.import",
+      "type": "FUNC"
+    },
+    {
+      "nsKey": "clab.project.po.model.export",
+      "type": "FUNC",
+      "name": "导出模型"
+    },
+    {
+      "nsKey": "clab.project.po.model.export.ddl",
+      "type": "FUNC",
+      "name": "DDL建表语句"
+    },
+    {
+      "nsKey": "clab.project.po.model.export.excel",
+      "type": "FUNC",
+      "name": "EXCEL文档"
+    },
+    {
+      "nsKey": "clab.project.po.model.compare",
+      "type": "FUNC",
+      "name": "模型比较"
+    },
+    {
+      "nsKey": "clab.project.po.type",
+      "type": "FUNC",
+      "name": "类型设计"
+    },
+    {
+      "nsKey": "clab.project.po.branch",
+      "type": "FUNC",
+      "name": "分支管理"
+    },
+    {
+      "nsKey": "clab.member",
+      "type": "FUNC",
+      "name": "协作成员"
+    },
+    {
+      "nsKey": "clab.member.add",
+      "type": "FUNC",
+      "name": "添加成员"
+    },
+    {
+      "nsKey": "clab.member.update",
+      "type": "FUNC",
+      "name": "修改成员"
+    },
+    {
+      "nsKey": "clab.member.delete",
+      "type": "FUNC",
+      "name": "删除成员"
+    },
+    {
+      "nsKey": "clab.dbenv",
+      "type": "FUNC",
+      "name": "数据库环境"
+    },
+    {
+      "nsKey": "clab.dbenv.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.dbenv.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.dbenv.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.dbenv.delete",
+      "type": "FUNC",
+      "name": "删除"
+    },
+    {
+      "nsKey": "clab.bizdatatye",
+      "type": "FUNC",
+      "name": "业务域类型"
+    },
+    {
+      "nsKey": "clab.bizdatatye.view",
+      "type": "FUNC",
+      "name": "查看"
+    },
+    {
+      "nsKey": "clab.bizdatatye.create",
+      "type": "FUNC",
+      "name": "创建"
+    },
+    {
+      "nsKey": "clab.bizdatatye.update",
+      "type": "FUNC",
+      "name": "修改"
+    },
+    {
+      "nsKey": "clab.bizdatatye.resort",
+      "type": "FUNC",
+      "name": "排序"
+    },
+    {
+      "nsKey": "clab.bizdatatye.delete",
+      "type": "FUNC",
+      "name": "删除"
+    }
+  ],
+  "roleList": [
+    {
+      "roleCode": null,
+      "roleName": null,
+      "roleType": null,
+      "roleId": "BPDCHABDY7AAC",
+      "status": "1",
+      "intro": "团队负责人",
+      "peerOrder": 7,
+      "permissionList": [
+        {
+          "roleId": "BPDCHABDY7AAC",
+          "pilotNsKey": "root.clab",
+          "uid": "1K1WP8DGVW801",
+          "pilotType": "MENU",
+          "pilotFullName": "团队空间",
+          "roleMenuPurview": "9",
+          "roleMenuDataRange": "PORTION",
+          "roleFuncKeys": [
+            {
+              "nsKey": "clab.team",
+              "type": "FUNC",
+              "name": "团队管理"
+            },
+            {
+              "nsKey": "clab.team.create",
+              "type": "FUNC",
+              "name": "创建团队"
+            },
+            {
+              "nsKey": "clab.team.update",
+              "type": "FUNC",
+              "name": "修改团队"
+            },
+            {
+              "nsKey": "clab.team.delete",
+              "type": "FUNC",
+              "name": "解散团队"
+            },
+            {
+              "nsKey": "clab.project",
+              "type": "FUNC",
+              "name": "项目管理"
+            },
+            {
+              "nsKey": "clab.project.category",
+              "type": "FUNC",
+              "name": "目录"
+            },
+            {
+              "nsKey": "clab.project.category.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.category.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.category.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.category.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.category.resort",
+              "type": "FUNC",
+              "name": "排序"
+            },
+            {
+              "nsKey": "clab.project.pm",
+              "type": "FUNC",
+              "name": "项目管理"
+            },
+            {
+              "nsKey": "clab.project.pm.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.pm.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.pm.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.pm.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.pm.transfer",
+              "type": "FUNC",
+              "name": "转移目录"
+            },
+            {
+              "nsKey": "clab.project.po",
+              "type": "FUNC",
+              "name": "项目操作"
+            },
+            {
+              "nsKey": "clab.project.po.open",
+              "type": "FUNC",
+              "name": "打开项目"
+            },
+            {
+              "nsKey": "clab.project.po.model",
+              "type": "FUNC",
+              "name": "模型设计"
+            },
+            {
+              "nsKey": "clab.project.po.model.category",
+              "type": "FUNC",
+              "name": "分类目录"
+            },
+            {
+              "nsKey": "clab.project.po.model.category.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.po.model.category.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.po.model.category.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.po.model.category.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.po.model.concept",
+              "type": "FUNC",
+              "name": "概念模型"
+            },
+            {
+              "nsKey": "clab.project.po.model.concept.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.po.model.concept.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.po.model.concept.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.po.model.concept.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.po.model.logic",
+              "type": "FUNC",
+              "name": "逻辑模型"
+            },
+            {
+              "nsKey": "clab.project.po.model.logic.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.po.model.logic.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.po.model.logic.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.po.model.logic.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.po.model.physic",
+              "type": "FUNC",
+              "name": "物理模型"
+            },
+            {
+              "nsKey": "clab.project.po.model.physic.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.po.model.physic.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.po.model.physic.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.po.model.physic.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.po.model.mind",
+              "type": "FUNC",
+              "name": "思维导图"
+            },
+            {
+              "nsKey": "clab.project.po.model.mind.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.po.model.mind.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.po.model.mind.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.po.model.mind.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.project.po.model.flow",
+              "type": "FUNC",
+              "name": "流程图"
+            },
+            {
+              "nsKey": "clab.project.po.model.flow.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.project.po.model.flow.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.project.po.model.flow.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.project.po.model.flow.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+
+            {
+              "nsKey": "clab.project.po.model.export",
+              "type": "FUNC",
+              "name": "导出模型"
+            },
+            {
+              "nsKey": "clab.project.po.model.export.ddl",
+              "type": "FUNC",
+              "name": "DDL建表语句"
+            },
+            {
+              "nsKey": "clab.project.po.model.export.excel",
+              "type": "FUNC",
+              "name": "EXCEL文档"
+            },
+            {
+              "nsKey": "clab.project.po.model.compare",
+              "type": "FUNC",
+              "name": "模型比较"
+            },
+            {
+              "nsKey": "clab.project.po.type",
+              "type": "FUNC",
+              "name": "类型设计"
+            },
+            {
+              "nsKey": "clab.project.po.branch",
+              "type": "FUNC",
+              "name": "分支管理"
+            },
+            {
+              "nsKey": "clab.member",
+              "type": "FUNC",
+              "name": "协作成员"
+            },
+            {
+              "nsKey": "clab.member.add",
+              "type": "FUNC",
+              "name": "添加成员"
+            },
+            {
+              "nsKey": "clab.member.update",
+              "type": "FUNC",
+              "name": "修改成员"
+            },
+            {
+              "nsKey": "clab.member.delete",
+              "type": "FUNC",
+              "name": "删除成员"
+            },
+            {
+              "nsKey": "clab.dbenv",
+              "type": "FUNC",
+              "name": "数据库环境"
+            },
+            {
+              "nsKey": "clab.dbenv.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.dbenv.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.dbenv.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.dbenv.delete",
+              "type": "FUNC",
+              "name": "删除"
+            },
+            {
+              "nsKey": "clab.bizdatatye",
+              "type": "FUNC",
+              "name": "业务域类型"
+            },
+            {
+              "nsKey": "clab.bizdatatye.view",
+              "type": "FUNC",
+              "name": "查看"
+            },
+            {
+              "nsKey": "clab.bizdatatye.create",
+              "type": "FUNC",
+              "name": "创建"
+            },
+            {
+              "nsKey": "clab.bizdatatye.update",
+              "type": "FUNC",
+              "name": "修改"
+            },
+            {
+              "nsKey": "clab.bizdatatye.resort",
+              "type": "FUNC",
+              "name": "排序"
+            },
+            {
+              "nsKey": "clab.bizdatatye.delete",
+              "type": "FUNC",
+              "name": "删除"
+            }
+          ],
+          "pilotId": "root.clab"
+        }
+      ]
+    }
+  ]
+}

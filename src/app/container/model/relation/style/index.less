@@ -1,0 +1,170 @@
+.@{prefix}-container-model-relation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  &-config {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+    cursor: pointer;
+    i {
+      font-size: 22px !important;
+    }
+  }
+  &-svg {
+    width: 100%;
+    height: 100%;
+    //cursor: default !important;
+  }
+  &-minimap {
+    position: absolute;
+    right: 18px;
+    bottom: 60px;
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow: 0 0 4px 0 #dfe3eb;
+    //width: 300px;
+    //height: 200px;
+  }
+  &-celltool-container {
+    position: absolute;
+    z-index: 2;
+    &[style*='opacity: 0'] {
+      pointer-events: none;
+    }
+    transition: opacity 0.2s;
+  }
+  &-edit {
+    margin: 10px 50px 30px 50px;
+    font-size: 12px;
+    line-height: 25px;
+    & .@{prefix}-components-radio:first-child {
+      margin-right: 50px;
+    }
+    & .@{prefix}-components-form-item-label::before {
+      font-size: 12px;
+      line-height: 25px;
+      left: -12px;
+      top: -5px;
+    }
+    & .@{prefix}-components-form-item:first-child,
+    & .@{prefix}-components-form-item:nth-child(2) {
+      width: 405px;
+    }
+    & .@{prefix}-components-input {
+      width: 300px;
+      & .@{prefix}-components-input-toggle {
+        position: fixed;
+        margin-left: 305px;
+      }
+    }
+    &-line {
+      white-space: nowrap;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &-temp-multiple-entity {
+    //pointer-events: none;
+    opacity: 0.8;
+    z-index: 999;
+    cursor: move;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    border: 1px solid @primary-border-color;
+    background: @background-color;
+    padding: 10px;
+    & > div {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      & > div:first-child {
+        text-align: center;
+        border-bottom: 1px solid @primary-border-color;
+      }
+      & > div {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+      }
+      & > div:last-child {
+        text-align: center;
+        border-top: 1px solid @primary-border-color;;
+      }
+    }
+  }
+  &-conceptentity {
+    &-edit {
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 100%;
+      resize: none;
+    }
+  }
+}
+
+// 覆盖X6样式
+.x6-node-tool-editor {
+  cursor: text;
+}
+.x6-widget-transform-cursor(@border-color){
+  border-width: 2px !important;
+  background: transparent !important;
+  border-color: @border-color !important;
+  border-radius: 0 !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+.x6-widget-transform-resize[data-position='top-left'] {
+  .x6-widget-transform-cursor(@primary-color transparent transparent @primary-color)
+}
+.x6-widget-transform-resize[data-position='top'] {
+  .x6-widget-transform-cursor(@primary-color transparent transparent transparent)
+}
+.x6-widget-transform-resize[data-position='top-right'] {
+  .x6-widget-transform-cursor(@primary-color @primary-color transparent transparent)
+}
+.x6-widget-transform-resize[data-position='right'] {
+  .x6-widget-transform-cursor(transparent @primary-color transparent transparent)
+}
+.x6-widget-transform-resize[data-position='bottom-right'] {
+  .x6-widget-transform-cursor(transparent @primary-color @primary-color transparent)
+}
+.x6-widget-transform-resize[data-position='bottom'] {
+  .x6-widget-transform-cursor(transparent transparent @primary-color transparent)
+}
+.x6-widget-transform-resize[data-position='bottom-left'] {
+  .x6-widget-transform-cursor(transparent transparent @primary-color @primary-color)
+}
+.x6-widget-transform-resize[data-position='left'] {
+  .x6-widget-transform-cursor(transparent transparent transparent @primary-color)
+}
+
+.x6-graph.x6-graph-pannable {
+  //cursor: -webkit-grab;
+  cursor: default;
+}
+.x6-widget-transform-rotate {
+  top: 0 !important;
+  left: -45px !important;
+  background: @primary-color !important;
+  &:hover {
+    background: @primary-color-dark !important;
+  }
+}
+@keyframes running-line {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}

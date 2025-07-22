@@ -1,0 +1,46 @@
+.@{prefix}-container-model-category {
+
+    &-schema,
+    &-category {
+        .@{prefix}-components-checkbox + .@{prefix}-components-checkbox {
+            margin-left: 9px;
+        }
+        .@{prefix}-components-tree-select-input {
+            width: 250px;
+        }
+        &-line {
+            white-space: nowrap;
+            display: flex;
+            flex-direction: row;
+            & .@{prefix}-components-input:first-child  {
+                width: 250px;
+                & > .@{prefix}-components-input-toggle {
+                    position: fixed;
+                    margin-left: 385px;
+                }
+            }
+            & .@{prefix}-components-input:nth-child(2)  {
+                margin-left: 10px;
+            }
+        }
+        .@{prefix}-components-form-item-label::before {
+            font-size: 12px;
+            line-height: 25px;
+            left: -12px;
+            top: -5px;
+        }
+    }
+    &-wrapper {
+        margin: 10px 50px 30px 50px;
+        font-size: 12px;
+        line-height: 25px;
+        & > .@{prefix}-components-form {
+            margin-bottom: 12px;
+        }
+        .@{prefix}-components-radio-children {
+            padding-left: 3px;
+            display: inline-block;
+            width: 100px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.@{prefix}-container-model-entity-conceptual {
+  &-base {
+    & > div {
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      & > span {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+    &-item {
+      & + & {
+        margin-left: 10px;
+      }
+      flex-grow: 1;
+      //.@{prefix}-components-input-blur,
+      //.@{prefix}-components-textarea{
+      //  border: none !important;
+      //  box-shadow: none !important;
+      //}
+      .@{prefix}-components-input-blur {
+        &:has(input:disabled) {
+          border-bottom: 1px solid @primary-border-color;
+          border-right: 1px solid transparent;
+          border-left: 1px solid transparent;
+          border-top: 1px solid transparent;
+        }
+      }
+      & > span:first-child {
+        display: inline-block;
+        text-align: right;
+        width: 100px;
+        padding: 5px;
+        color: @four-font-color;
+        //background: @background-second-color;
+        border-radius: 3px 0 0 3px;
+      }
+      & > span:nth-child(2) {
+        input:disabled {
+          background-color: initial;
+          color: initial;
+        }
+        padding: 3px;
+        border-radius: 0 3px 3px 0;
+        flex-grow: 1;
+      }
+    }
+    &-opt {
+      margin-left: 10px;
+      padding: 4px;
+      justify-content: space-around;
+      i {
+        cursor: pointer;
+      }
+    }
+  }
+  &-edit {
+    margin: 10px 50px 50px 50px;
+    font-size: 12px;
+    line-height: 25px;
+    & .@{prefix}-components-form-item-label::before {
+      font-size: 12px;
+      line-height: 25px;
+      left: -12px;
+      top: -5px;
+    }
+    & .@{prefix}-components-form-item:first-child,
+    & .@{prefix}-components-form-item:last-child {
+      width: 405px;
+    }
+    & .@{prefix}-components-input {
+      width: 300px;
+      & .@{prefix}-components-input-toggle {
+        position: fixed;
+        margin-left: 305px;
+      }
+    }
+    &-line {
+      white-space: nowrap;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

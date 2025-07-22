@@ -1,0 +1,17 @@
+SOP_CEP_ONLINE('端点上线','一个协作终端成功连接');
+SOP_CEP_OFFLINE('端点下线','一个协作终端成功连接');
+SOP_ALL_CEP('所有端点','当前项目的所有连接端点');
+SOP_INC_CMD('增量未执行的命令','本项目读出后增量未执行的命令');
+/* 目录操作的 */
+MOP_CATEGORY_CREATE('目录创建','');
+MOP_CATEGORY_UPDATE('目录修改','');
+MOP_CATEGORY_DELETE('目录删除','');
+MOP_CATEGORY_DRAG('目录拖动','');
+/* 实体操作的 */
+MOP_ENTITY_CREATE('实体创建','');
+MOP_ENTITY_UPDATE('实体修改','');
+MOP_ENTITY_DELETE('实体删除','');
+MOP_ENTITY_DRAG('实体拖动','');
+MOP_ENTITY_BATCH_UPDATE('实体批量修改','');
+MOP_ENTITY_BATCH_DELETE('实体批量删除','');
+MOP_ENTITY_BATCH_DRAG('实体批量拖动','');

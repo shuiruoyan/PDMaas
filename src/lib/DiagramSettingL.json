@@ -1,0 +1,176 @@
+{
+  "entityDisplay": {
+    "showFields": [
+      "defKey",
+      "defName",
+      "baseDataType",
+      "dataLen",
+      "numScale"
+    ],
+    "logicModelCompactShow": "N",
+    "logicModelCompactDelimiter": ","
+  },
+  "entitySetting": {
+    "titleText": {
+      "customValue": "{defKey}[{defName}]",
+      "optionValue": "A"
+    },
+    "titleStyle": {
+      "body": {
+        "fill": "rgb(159, 193, 255)",
+        "fill-opacity": 1
+      },
+      "text": {
+        "fill": "rgb(0, 0, 0)",
+        "fontSize": "12",
+        "font-style": "",
+        "fontFamily": "Arial",
+        "textAnchor": "middle",
+        "font-weight": "bold",
+        "text-decoration": "",
+        "textVerticalAnchor": "middle"
+      }
+    },
+    "contentStyle": {
+      "body": {
+        "fill": "#ffffff",
+        "fill-opacity": 0.9
+      },
+      "text": {
+        "fill": "rgb(87, 87, 87)",
+        "fontSize": "12",
+        "font-style": "italic",
+        "fontFamily": "Arial",
+        "textAnchor": "middle",
+        "font-weight": "bold",
+        "text-decoration": "",
+        "textVerticalAnchor": "middle"
+      }
+    },
+    "primaryKeyStyle": {
+      "body": {
+        "fill": "rgb(183，185，189)",
+        "fill-opacity": 1
+      },
+      "text": {
+        "fill": "",
+        "fontSize": "12",
+        "font-style": "",
+        "fontFamily": "Arial",
+        "textAnchor": "middle",
+        "font-weight": "bold",
+        "text-decoration": "underline",
+        "textVerticalAnchor": "middle"
+      }
+    },
+    "foreignKeyStyle": {
+      "body": {
+        "fill": "rgb(183，185，189)",
+        "fill-opacity": 1
+      },
+      "text": {
+        "fill": "",
+        "fontSize": "12",
+        "font-style": "italic",
+        "fontFamily": "Arial",
+        "textAnchor": "middle",
+        "font-weight": "bold",
+        "text-decoration": null,
+        "textVerticalAnchor": "middle"
+      }
+    },
+    "fieldStyle": {
+      "body": {
+        "fill": "rgb(183，185，189)",
+        "fill-opacity": 1
+      },
+      "text": {
+        "fill": "",
+        "fontSize": "12",
+        "font-style": "",
+        "fontFamily": "Arial",
+        "textAnchor": "middle",
+        "font-weight": "bold",
+        "text-decoration": "",
+        "textVerticalAnchor": "middle"
+      }
+    },
+    "defaultSize": {
+      "width": 400,
+      "height": 248,
+      "optionValue": "C"
+    },
+    "borderStyle": {
+      "body": {
+        "stroke": "rgb(179, 179, 179)",
+        "stroke-width": 1,
+        "stroke-opacity": 0.78695652173913,
+        "stroke-dasharray": "0"
+      }
+    },
+    "divideLineStyle": {
+      "body": {
+        "stroke": "rgb(214, 214, 214)",
+        "stroke-width": 1,
+        "stroke-opacity": 0.78695652173913,
+        "stroke-dasharray": "0"
+      }
+    }
+  },
+  "shapeGeneral": {
+    "body": {
+      "fill": "rgb(159, 193, 255)",
+      "stroke": "rgb(179, 179, 179)",
+      "fill-opacity": 1,
+      "stroke-width": 1,
+      "stroke-opacity": 0.78695652173913,
+      "stroke-dasharray": "0"
+    },
+    "text": {
+      "fill": "",
+      "fontSize": "12",
+      "font-style": "",
+      "fontFamily": "思源黑体,",
+      "textAnchor": "middle",
+      "font-weight": "",
+      "text-decoration": "",
+      "textVerticalAnchor": "middle"
+    }
+  },
+  "linkLine": {
+    "body": {
+      "fill": "rgb(183，185，189)",
+      "stroke": "rgb(0, 129, 210)",
+      "fill-opacity": 1,
+      "stroke-width": 1,
+      "stroke-opacity": 0.78695652173913,
+      "stroke-dasharray": "0"
+    },
+    "text": {
+      "fill": null,
+      "fontSize": "12",
+      "font-style": "italic",
+      "fontFamily": "思源黑体,",
+      "textAnchor": "middle",
+      "font-weight": "bold",
+      "text-decoration": "underline",
+      "textVerticalAnchor": "middle"
+    }
+  },
+  "textbox": {
+    "body": {
+      "fill": "rgb(183，185，189)",
+      "fill-opacity": 1
+    },
+    "text": {
+      "fill": "",
+      "fontSize": "12",
+      "font-style": "",
+      "fontFamily": "Arial",
+      "textAnchor": "middle",
+      "font-weight": "",
+      "text-decoration": "",
+      "textVerticalAnchor": "middle"
+    }
+  }
+}

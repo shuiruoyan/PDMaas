@@ -1,0 +1,289 @@
+.@{prefix}-common-tools {
+  width: 100%;
+  height: 100%;
+
+  .@{prefix}-components-radio + .@{prefix}-components-radio {
+    margin-left: 20%;
+  }
+  &-cellStyle {
+    width: 100%;
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  &-add-fields,
+  &-delete-fields,
+  &-preset-fields,
+  &-table-compare,
+  &-case-conversion {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    height: calc(100% - 20px);
+    &-left {
+      width: 35%;
+      min-width: 350px;
+      margin-left: 10px;
+    }
+    &-right {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  &-tree {
+    width: 100%;
+    height: 100%;
+    border: 1px solid @primary-border-color;
+    //overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    & > div {
+      &:first-child {
+        margin: 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid @primary-border-color;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        & > span {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          line-height: 30px;
+          &:nth-child(2) {
+            margin-left: 9px;
+          }
+          &:last-child {
+            flex-grow: 1;
+            justify-content: flex-end;
+            span + span {
+              margin-left: 9px;
+            }
+            & > span {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      &:nth-child(2) {
+        margin: 5px;
+      }
+      &:last-child {
+        flex-grow: 1;
+      }
+    }
+    &-line {
+      display: inline-block;
+      margin-left: 9px;
+      margin-right: 9px;
+      height: 24px;
+      width: 1px;
+      background-color: @primary-border-color;
+    }
+  }
+  &-case-conversion {
+    &-right {
+      //width: calc(60% - 40px);
+      width: 60%;
+      overflow-y: scroll;
+      &-item {
+        white-space: nowrap;
+        &-title {
+          & > span {
+            &:first-child {
+              font-size: 15px;
+              font-weight: bold;
+              line-height: 50px;
+              padding-right: 8px;
+            }
+            &:last-child {
+              span + span {
+                padding-left: 12px;
+
+              }
+            }
+          }
+        }
+        &-body {
+          margin-top: 15px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+  }
+  &-add-fields {
+    &-right {
+      display: flex;
+      flex-direction: column;
+      & > div {
+        &:first-child {
+          flex-grow: 1;
+        }
+        &:last-child {
+          text-align: right;
+          margin-top: 12px;
+          & > span {
+            &:first-child {
+              span + span {
+                padding-left: 12px;
+              }
+              padding-right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-preset-fields {
+    &-right {
+      width: 65%;
+      display: flex;
+      flex-direction: column;
+      &-title {
+        display: inline-block;
+        font-weight: bold;
+        padding-bottom: 6px;
+        font-size: 13px;
+      }
+      &-table {
+        flex-grow: 1;
+      }
+      &-button {
+        text-align: right;
+        margin-top: 12px;
+        white-space: nowrap;
+        & > span {
+          &:first-child {
+            padding-right: 12px;
+            span + span {
+              padding-left: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-metaDataEdit {
+    margin: 10px 50px 30px 50px;
+    .@{prefix}-components-radio + .@{prefix}-components-radio {
+      margin-left: 8px;
+    }
+  }
+
+  &-batchDataProcessor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    //&-bottom {
+    //  height: 35px;
+    //  margin: 10px auto 0;
+    //}
+
+    &-primaryKey {
+      color: @primary-color;
+      cursor: pointer;
+      visibility: hidden;
+    }
+    &-update {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      & > div {
+        height: 35px;
+        &:first-child {
+          display: inline-flex;
+          width: calc(100% - 80px);
+          height: 100%;
+          flex-direction: row;
+          align-items: center;
+          //justify-content: center;
+          input, .@{prefix}-components-input  {
+            width: 100%;
+          }
+        }
+        &:last-child {
+          width: 80px;
+          line-height: 35px;
+          text-align: center;
+        }
+      }
+    }
+    &-phy {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      & > div {
+        height: 50%;
+      }
+    }
+
+    &-displayUpdate {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      & > div {
+        white-space: nowrap;
+      }
+      &-update {
+        color: @primary-color;
+        visibility: hidden;
+        cursor: pointer;
+      }
+    }
+    &-tableRender {
+      width: 100%;
+      height: 100%;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      &-title {
+        font-weight: bold;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 10px;
+        & > div {
+          color: @warring-color;
+          float: right;
+          line-height: 35px;
+          height: 35px;
+          margin-right: 9px;
+        }
+      }
+      &-body {
+        margin: 10px 10px 0;
+        flex-grow: 1;
+        & .@{prefix}-components-table-body-item > span, .@{prefix}-components-table-body-header > span {
+          border-top: none;
+        }
+        & .@{prefix}-components-table-body-header > span:not(:last-child):before {
+          border-left: none;
+        }
+        & .@{prefix}-components-table-body-item:hover {
+          & .@{prefix}-common-tools-batchDataProcessor-displayUpdate-update {
+            visibility: visible;
+          }
+        }
+
+      }
+    }
+    &-tableRender + &-tableRender {
+      margin-top: 19px;
+    }
+
+  }
+}

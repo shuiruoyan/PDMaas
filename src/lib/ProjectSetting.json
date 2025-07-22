@@ -1,0 +1,554 @@
+{
+  "physicEntityPresetFields": [],
+  "physicEntityAttr": {
+    "attr1": {
+      "enable": 0,
+      "title": "增强字段1",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 1
+    },
+    "attr2": {
+      "enable": 0,
+      "title": "增强字段2",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 2
+    },
+    "attr3": {
+      "enable": 0,
+      "title": "增强字段3",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 3
+    },
+    "attr4": {
+      "enable": 0,
+      "title": "增强字段4",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 4
+    },
+    "attr5": {
+      "enable": 0,
+      "title": "增强字段5",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 5
+    },
+    "attr6": {
+      "enable": 0,
+      "title": "增强字段6",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 6
+    },
+    "attr7": {
+      "enable": 0,
+      "title": "增强字段7",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 7
+    },
+    "attr8": {
+      "enable": 0,
+      "title": "增强字段8",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 8
+    },
+    "attr9": {
+      "enable": 0,
+      "title": "增强字段9",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 9
+    },
+    "attr10": {
+      "enable": 0,
+      "title": "增强字段10",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 10
+    },
+    "attr11": {
+      "enable": 0,
+      "title": "增强字段11",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 11
+    },
+    "attr12": {
+      "enable": 0,
+      "title": "增强字段12",
+      "editType": "MultiText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 12
+    },
+    "attr13": {
+      "enable": 0,
+      "title": "增强字段13",
+      "editType": "DecimalInput",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 13
+    },
+    "attr14": {
+      "enable": 0,
+      "title": "增强字段14",
+      "editType": "IntegerInput",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 14
+    },
+    "attr15": {
+      "enable": 0,
+      "title": "增强字段15",
+      "editType": "MultiTreeSelect",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 15
+    },
+    "attr16": {
+      "enable": 0,
+      "title": "增强字段16",
+      "editType": "SingleTreeSelect",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 16
+    },
+    "attr17": {
+      "enable": 0,
+      "title": "增强字段17",
+      "editType": "MultiCheckbox",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 17
+    },
+    "attr18": {
+      "enable": 0,
+      "title": "增强字段18",
+      "editType": "MultiDropdown",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 18
+    },
+    "attr19": {
+      "enable": 0,
+      "title": "增强字段19",
+      "editType": "SingleDropdown",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 19
+    },
+    "attr20": {
+      "enable": 0,
+      "title": "增强字段20",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 20
+    }
+  },
+  "physicEntityFieldAttr": {
+    "attr1": {
+      "enable": 0,
+      "title": "增强字段1",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 16
+    },
+    "attr2": {
+      "enable": 0,
+      "title": "增强字段2",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 17
+    },
+    "attr3": {
+      "enable": 0,
+      "title": "增强字段3",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 18
+    },
+    "attr4": {
+      "enable": 0,
+      "title": "增强字段4",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 19
+    },
+    "attr5": {
+      "enable": 0,
+      "title": "增强字段5",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 20
+    },
+    "attr6": {
+      "enable": 0,
+      "title": "增强字段6",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 21
+    },
+    "attr7": {
+      "enable": 0,
+      "title": "增强字段7",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 22
+    },
+    "attr8": {
+      "enable": 0,
+      "title": "增强字段8",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 23
+    },
+    "attr9": {
+      "enable": 0,
+      "title": "增强字段9",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 24
+    },
+    "attr10": {
+      "enable": 0,
+      "title": "增强字段10",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 25
+    },
+    "attr11": {
+      "enable": 0,
+      "title": "增强字段11",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 26
+    },
+    "attr12": {
+      "enable": 0,
+      "title": "增强字段12",
+      "editType": "MultiText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 27
+    },
+    "attr13": {
+      "enable": 0,
+      "title": "增强字段13",
+      "editType": "DecimalInput",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 28
+    },
+    "attr14": {
+      "enable": 0,
+      "title": "增强字段14",
+      "editType": "IntegerInput",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 29
+    },
+    "attr15": {
+      "enable": 0,
+      "title": "增强字段15",
+      "editType": "MultiTreeSelect",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 30
+    },
+    "attr16": {
+      "enable": 0,
+      "title": "增强字段16",
+      "editType": "SingleTreeSelect",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 31
+    },
+    "attr17": {
+      "enable": 0,
+      "title": "增强字段17",
+      "editType": "MultiCheckbox",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 32
+    },
+    "attr18": {
+      "enable": 0,
+      "title": "增强字段18",
+      "editType": "MultiDropdown",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 33
+    },
+    "attr19": {
+      "enable": 0,
+      "title": "增强字段19",
+      "editType": "SingleDropdown",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 34
+    },
+    "attr20": {
+      "enable": 0,
+      "title": "增强字段20",
+      "editType": "SingleText",
+      "optionsData": null,
+      "optionsFetcher": null,
+      "defaultValue": null,
+      "orderValue": 35
+    }
+  },
+  "physicEntityHeader": {
+    "defKey": {
+      "enable": 1,
+      "columnWidth": 210,
+      "orderValue": 1
+    },
+    "defName": {
+      "enable": 1,
+      "columnWidth": 230,
+      "orderValue": 2
+    },
+    "primaryKey": {
+      "enable": 1,
+      "columnWidth": 70,
+      "orderValue": 3
+    },
+    "notNull": {
+      "enable": 1,
+      "columnWidth": 80,
+      "orderValue": 4
+    },
+    "autoIncrement": {
+      "enable": 1,
+      "columnWidth": 70,
+      "orderValue": 5
+    },
+    "baseDataType": {
+      "enable": 0,
+      "columnWidth": 150,
+      "orderValue": 6
+    },
+    "bizDomainType": {
+      "enable": 1,
+      "columnWidth": 180,
+      "orderValue": 7
+    },
+    "dbDataType": {
+      "enable": 1,
+      "columnWidth": 150,
+      "orderValue": 8
+    },
+    "dataLen": {
+      "enable": 1,
+      "columnWidth": 70,
+      "orderValue": 9
+    },
+    "numScale": {
+      "enable": 1,
+      "columnWidth": 80,
+      "orderValue": 10
+    },
+    "defaultValue": {
+      "enable": 1,
+      "columnWidth": 200,
+      "orderValue": 11
+    },
+    "intro": {
+      "enable": 1,
+      "columnWidth": 300,
+      "orderValue": 12
+    },
+    "stndDictKey": {
+      "enable": 1,
+      "columnWidth": 230,
+      "orderValue": 13
+    },
+    "stndFieldKey": {
+      "enable": 1,
+      "columnWidth": 230,
+      "orderValue": 14
+    },
+    "stndComplianceType": {
+      "enable": 1,
+      "columnWidth": 120,
+      "orderValue": 15
+    },
+    "stndComplianceLevel": {
+      "enable": 1,
+      "columnWidth": 100,
+      "orderValue": 16
+    },
+    "dictFrom": {
+      "enable": 1,
+      "columnWidth": 120,
+      "orderValue": 17
+    },
+    "attr1": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 18
+    },
+    "attr2": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 19
+    },
+    "attr3": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 20
+    },
+    "attr4": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 21
+    },
+    "attr5": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 22
+    },
+    "attr6": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 23
+    },
+    "attr7": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 24
+    },
+    "attr8": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 25
+    },
+    "attr9": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 26
+    },
+    "attr10": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 27
+    },
+    "attr11": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 28
+    },
+    "attr12": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 29
+    },
+    "attr13": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 30
+    },
+    "attr14": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 31
+    },
+    "attr15": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 32
+    },
+    "attr16": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 33
+    },
+    "attr17": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 34
+    },
+    "attr18": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 35
+    },
+    "attr19": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 36
+    },
+    "attr20": {
+      "enable": 0,
+      "columnWidth": 100,
+      "orderValue": 37
+    }
+  }
+}

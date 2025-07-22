@@ -1,0 +1,40 @@
+.@{prefix}-components-switch {
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 21px;
+  border-radius: 10px;
+  border: 1px solid @primary-border-color;
+  &-checked {
+    background: @primary-color;
+    & > div {
+      left: 20px;
+    }
+  }
+  &-unchecked {
+    background: @primary-second-border-color;
+    & > div {
+      left: 1px;
+    }
+  }
+  &-disable {
+    cursor: not-allowed;
+    .@{prefix}-components-switch-unchecked {
+      background: @primary-second-border-color
+    }
+    .@{prefix}-components-switch-checked {
+      background: @primary-border-color
+    }
+  }
+  &-bar {
+    top: 1px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    position: absolute;
+    background: @background-color;
+    border: 1px solid @primary-border-color;
+    box-shadow: 0 2px 4px @button-shadow;
+    transition: all .2s ease-in-out;
+  }
+}

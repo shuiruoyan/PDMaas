@@ -1,0 +1,79 @@
+.@{prefix}-container-model-relation-comtool {
+  position: absolute;
+  left: 5px;
+  top: 50px;
+  border: 1px solid @primary-second-border-color;
+  background: @background-color;
+  z-index: 1;
+  padding: 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  i {
+    font-size: 28px !important;
+  }
+  &-hidden {
+    display: none;
+  }
+  &-expand {
+    padding: 10px;
+    & > span {
+      display: inline-block !important;
+      &:last-child {
+        & > i {
+          transform: rotate(0deg) !important;
+        }
+      }
+    }
+    max-height: calc(100% - 50px);
+    overflow-y: auto;
+    & > span + span {
+      margin-top: 8px;
+    }
+  }
+  &-line {
+    border-bottom: 1px solid @primary-border-color;
+    height: 0 !important;
+  }
+  & > span {
+    & > span {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+    &:not(:last-child) {
+      display: none;
+    }
+    &:last-child {
+      & > i {
+        font-size: 16px !important;
+        transform: rotate(180deg);
+      }
+    }
+    cursor: pointer;
+    line-height: 30px;
+    &:hover {
+      background: @background-second-color;
+    }
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+  &-shape-list, &-edge-list {
+    & > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      i {
+        font-size: 20px !important;
+      }
+      padding: 8px;
+      cursor: pointer;
+      &:hover {
+        background: @background-second-color;
+      }
+    }
+  }
+}

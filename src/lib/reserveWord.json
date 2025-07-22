@@ -1,0 +1,947 @@
+[
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SELECT",
+    "intro": "用于从数据库中查询数据",
+    "reserveWordId": "1MN1GCGGAA802",
+    "orderValue": 1
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "INSERT",
+    "intro": "用于向表中插入新数据",
+    "reserveWordId": "1MN1GCGK2A802",
+    "orderValue": 2
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "UPDATE",
+    "intro": "用于更新表中的数据",
+    "reserveWordId": "1MN1GCGP2A802",
+    "orderValue": 3
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DELETE",
+    "intro": "用于从表中删除数据",
+    "reserveWordId": "1MN1GCGR2A801",
+    "orderValue": 4
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CREATE",
+    "intro": "用于创建数据库或表",
+    "reserveWordId": "1MN1GCGSXA802",
+    "orderValue": 5
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ALTER",
+    "intro": "用于修改表结构",
+    "reserveWordId": "1MN1GCGX2A801",
+    "orderValue": 6
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DROP",
+    "intro": "用于删除数据库或表",
+    "reserveWordId": "1MN1GCGYTA801",
+    "orderValue": 7
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "GRANT",
+    "intro": "用于授予用户权限",
+    "reserveWordId": "1MN1GCH1PA802",
+    "orderValue": 8
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "REVOKE",
+    "intro": "用于撤销用户权限",
+    "reserveWordId": "1MN1GCH5TA801",
+    "orderValue": 9
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "COMMIT",
+    "intro": "用于提交事务",
+    "reserveWordId": "1MN1GCH7KA801",
+    "orderValue": 10
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ROLLBACK",
+    "intro": "用于回滚事务",
+    "reserveWordId": "1MN1GCH9KA802",
+    "orderValue": 11
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "BEGIN",
+    "intro": "用于开始事务",
+    "reserveWordId": "1MN1GCHEFA802",
+    "orderValue": 12
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TRUNCATE",
+    "intro": "用于清空表中的数据",
+    "reserveWordId": "1MN1GCHGAA801",
+    "orderValue": 13
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "USE",
+    "intro": "用于选择数据库",
+    "reserveWordId": "1MN1GCHJFA801",
+    "orderValue": 14
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DESCRIBE",
+    "intro": "用于描述表的结构",
+    "reserveWordId": "1MN1GCHNAA802",
+    "orderValue": 15
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "EXPLAIN",
+    "intro": "用于解释查询的执行计划",
+    "reserveWordId": "1MN1GCHQAA801",
+    "orderValue": 16
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SHOW",
+    "intro": "用于显示数据库或表的信息",
+    "reserveWordId": "1MN1GCHTXA802",
+    "orderValue": 17
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "FROM",
+    "intro": "用于指定查询的数据来源",
+    "reserveWordId": "1MN1GCHVXA802",
+    "orderValue": 18
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "WHERE",
+    "intro": "用于指定查询条件",
+    "reserveWordId": "1MN1GCHXTA801",
+    "orderValue": 19
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "GROUP BY",
+    "intro": "用于对查询结果进行分组",
+    "reserveWordId": "1MN1GCJ2PA801",
+    "orderValue": 20
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "HAVING",
+    "intro": "用于过滤分组后的结果",
+    "reserveWordId": "1MN1GCJ4KA801",
+    "orderValue": 21
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ORDER BY",
+    "intro": "用于对查询结果进行排序",
+    "reserveWordId": "1MN1GCJ6PA801",
+    "orderValue": 22
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "LIMIT",
+    "intro": "用于限制查询结果的数量",
+    "reserveWordId": "1MN1GCJ8KA801",
+    "orderValue": 23
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "OFFSET",
+    "intro": "用于指定查询结果的偏移量",
+    "reserveWordId": "1MN1GCJDFA802",
+    "orderValue": 24
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "JOIN",
+    "intro": "用于连接多个表",
+    "reserveWordId": "1MN1GCJFAA801",
+    "orderValue": 25
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ON",
+    "intro": "用于指定连接条件",
+    "reserveWordId": "1MN1GCJHAA802",
+    "orderValue": 26
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "UNION",
+    "intro": "用于合并多个查询结果",
+    "reserveWordId": "1MN1GCJM6A801",
+    "orderValue": 27
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DISTINCT",
+    "intro": "用于返回唯一不同的值",
+    "reserveWordId": "1MN1GCJNXA801",
+    "orderValue": 28
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "AS",
+    "intro": "用于为列或表指定别名",
+    "reserveWordId": "1MN1GCJQPA802",
+    "orderValue": 29
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CASE",
+    "intro": "用于条件判断",
+    "reserveWordId": "1MN1GCJUKA801",
+    "orderValue": 30
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "WHEN",
+    "intro": "用于指定条件判断的条件",
+    "reserveWordId": "1MN1GCJWKA801",
+    "orderValue": 31
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "THEN",
+    "intro": "用于指定条件判断的结果",
+    "reserveWordId": "1MN1GCJYFA802",
+    "orderValue": 32
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ELSE",
+    "intro": "用于指定条件判断的默认结果",
+    "reserveWordId": "1MN1GCK1AA801",
+    "orderValue": 33
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "END",
+    "intro": "用于结束条件判断",
+    "reserveWordId": "1MN1GCK56A802",
+    "orderValue": 34
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "IN",
+    "intro": "用于指定查询的范围",
+    "reserveWordId": "1MN1GCK76A801",
+    "orderValue": 35
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "BETWEEN",
+    "intro": "用于指定查询的范围",
+    "reserveWordId": "1MN1GCK92A801",
+    "orderValue": 36
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "LIKE",
+    "intro": "用于模糊查询",
+    "reserveWordId": "1MN1GCKC6A802",
+    "orderValue": 37
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "IS",
+    "intro": "用于判断是否为某个值",
+    "reserveWordId": "1MN1GCKG2A801",
+    "orderValue": 38
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NULL",
+    "intro": "用于表示空值",
+    "reserveWordId": "1MN1GCKJ2A802",
+    "orderValue": 39
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NOT",
+    "intro": "用于否定条件",
+    "reserveWordId": "1MN1GCKMPA802",
+    "orderValue": 40
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "AND",
+    "intro": "用于逻辑与操作",
+    "reserveWordId": "1MN1GCKPPA802",
+    "orderValue": 41
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "OR",
+    "intro": "用于逻辑或操作",
+    "reserveWordId": "1MN1GCKRKA801",
+    "orderValue": 42
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "EXISTS",
+    "intro": "用于判断子查询是否返回结果",
+    "reserveWordId": "1MN1GCKTFA802",
+    "orderValue": 43
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ANY",
+    "intro": "用于比较子查询中的任意值",
+    "reserveWordId": "1MN1GCKXFA802",
+    "orderValue": 44
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ALL",
+    "intro": "用于比较子查询中的所有值",
+    "reserveWordId": "1MN1GCL0AA801",
+    "orderValue": 45
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SOME",
+    "intro": "用于比较子查询中的某些值",
+    "reserveWordId": "1MN1GCL2XA802",
+    "orderValue": 46
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "PRIMARY KEY",
+    "intro": "用于定义主键",
+    "reserveWordId": "1MN1GCL4AA802",
+    "orderValue": 47
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "FOREIGN KEY",
+    "intro": "用于定义外键",
+    "reserveWordId": "1MN1GCL86A801",
+    "orderValue": 48
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "REFERENCES",
+    "intro": "用于指定外键的引用表",
+    "reserveWordId": "1MN1GCLA2A802",
+    "orderValue": 49
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "INDEX",
+    "intro": "用于创建索引",
+    "reserveWordId": "1MN1GCLD2A802",
+    "orderValue": 50
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "AUTO_INCREMENT",
+    "intro": "MySQL/MariaDB 特有，用于为列自动生成唯一的递增值",
+    "reserveWordId": "1MN1GCLGXA801",
+    "orderValue": 51
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "IDENTITY",
+    "intro": "SQL Server 特有，用于为列自动生成唯一的递增值",
+    "reserveWordId": "1MN1GCLJXA802",
+    "orderValue": 52
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "AUTOINCREMENT",
+    "intro": "SQLite 特有，用于为列自动生成唯一的递增值",
+    "reserveWordId": "1MN1GCLLTA801",
+    "orderValue": 53
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CHAR",
+    "intro": "用于定义固定长度的字符串（通用保留字）",
+    "reserveWordId": "1MN1GCLNTA802",
+    "orderValue": 54
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "VARCHAR",
+    "intro": "用于定义可变长度的字符串（通用保留字）",
+    "reserveWordId": "1MN1GCLSPA801",
+    "orderValue": 55
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DEFAULT",
+    "intro": "用于为列设置默认值（通用保留字）",
+    "reserveWordId": "1MN1GCLUKA801",
+    "orderValue": 56
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "INT",
+    "intro": "用于定义整数类型（通用保留字）",
+    "reserveWordId": "1MN1GCLWPA802",
+    "orderValue": 57
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "BIGINT",
+    "intro": "用于定义大整数类型（通用保留字）",
+    "reserveWordId": "1MN1GCM1FA801",
+    "orderValue": 58
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DECIMAL",
+    "intro": "用于定义精确小数（通用保留字）",
+    "reserveWordId": "1MN1GCM3AA801",
+    "orderValue": 59
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DATE",
+    "intro": "用于定义日期（通用保留字）",
+    "reserveWordId": "1MN1GCM56A802",
+    "orderValue": 60
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DATETIME",
+    "intro": "用于定义日期和时间（通用保留字，部分数据库如MySQL特有）",
+    "reserveWordId": "1MN1GCM9AA801",
+    "orderValue": 61
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TIMESTAMP",
+    "intro": "用于定义时间戳（通用保留字，行为因数据库而异）",
+    "reserveWordId": "1MN1GCMC2A801",
+    "orderValue": 62
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "BOOLEAN",
+    "intro": "用于定义布尔值（通用保留字，部分数据库如 PostgreSQL 明确支持）",
+    "reserveWordId": "1MN1GCMDXA802",
+    "orderValue": 63
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TEXT",
+    "intro": "用于定义长文本（通用保留字）",
+    "reserveWordId": "1MN1GCMFTA802",
+    "orderValue": 64
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "BLOB",
+    "intro": "用于定义二进制大对象（通用保留字）",
+    "reserveWordId": "1MN1GCMKPA801",
+    "orderValue": 65
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ENUM",
+    "intro": "MySQL/MariaDB 特有，用于定义枚举类型",
+    "reserveWordId": "1MN1GCMMPA802",
+    "orderValue": 66
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "JSON",
+    "intro": "用于定义 JSON 数据类型（通用保留字，如 MySQL、PostgreSQL 支持）",
+    "reserveWordId": "1MN1GCMPPA802",
+    "orderValue": 67
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SERIAL",
+    "intro": "PostgreSQL 特有，用于自增整数（类似 MySQL 的 AUTO_INCREMENT）",
+    "reserveWordId": "1MN1GCMRTA802",
+    "orderValue": 68
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NVARCHAR",
+    "intro": "SQL Server 特有，用于定义 Unicode 可变长度字符串",
+    "reserveWordId": "1MN1GCMVPA801",
+    "orderValue": 69
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NCHAR",
+    "intro": "SQL Server 特有，用于定义 Unicode 固定长度字符串",
+    "reserveWordId": "1MN1GCMXKA801",
+    "orderValue": 70
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TINYINT",
+    "intro": "MySQL 特有，用于定义 1 字节整数（范围 0-255）",
+    "reserveWordId": "1MN1GCN0KA801",
+    "orderValue": 71
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DOUBLE",
+    "intro": "用于定义双精度浮点数（通用保留字）",
+    "reserveWordId": "1MN1GCN4FA801",
+    "orderValue": 72
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "REAL",
+    "intro": "用于定义单精度浮点数（通用保留字，部分数据库中为双精度）",
+    "reserveWordId": "1MN1GCN6KA801",
+    "orderValue": 73
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CHECK",
+    "intro": "通用保留字，用于定义列的约束条件",
+    "reserveWordId": "1MN1GCN8AA801",
+    "orderValue": 74
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "FOREIGN",
+    "intro": "通用保留字，用于定义外键（需与 KEY 结合使用）",
+    "reserveWordId": "1MN1GCNA6A801",
+    "orderValue": 75
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "PRIMARY",
+    "intro": "通用保留字，用于定义主键（需与 KEY 结合使用）",
+    "reserveWordId": "1MN1GCNFAA802",
+    "orderValue": 76
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "UNIQUE",
+    "intro": "通用保留字，用于定义唯一约束",
+    "reserveWordId": "1MN1GCNH2A802",
+    "orderValue": 77
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CASCADE",
+    "intro": "通用保留字，用于外键的级联操作",
+    "reserveWordId": "1MN1GCNJXA801",
+    "orderValue": 78
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "VIEW",
+    "intro": "通用保留字，用于创建视图",
+    "reserveWordId": "1MN1GCNNXA801",
+    "orderValue": 79
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TRIGGER",
+    "intro": "通用保留字，用于创建触发器",
+    "reserveWordId": "1MN1GCNQTA801",
+    "orderValue": 80
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "PROCEDURE",
+    "intro": "通用保留字，用于创建存储过程",
+    "reserveWordId": "1MN1GCNSTA802",
+    "orderValue": 81
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "FUNCTION",
+    "intro": "通用保留字，用于创建函数",
+    "reserveWordId": "1MN1GCNUPA801",
+    "orderValue": 82
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TEMPORARY",
+    "intro": "通用保留字，用于创建临时表",
+    "reserveWordId": "1MN1GCNYKA802",
+    "orderValue": 83
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CONSTRAINT",
+    "intro": "通用保留字，用于定义约束",
+    "reserveWordId": "1MN1GCP1PA802",
+    "orderValue": 84
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CROSS",
+    "intro": "通用保留字，用于交叉连接（CROSS JOIN）",
+    "reserveWordId": "1MN1GCP3KA802",
+    "orderValue": 85
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NATURAL",
+    "intro": "通用保留字，用于自然连接（NATURAL JOIN）",
+    "reserveWordId": "1MN1GCP9AA801",
+    "orderValue": 86
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "USING",
+    "intro": "通用保留字，用于简化连接条件（JOIN ... USING）",
+    "reserveWordId": "1MN1GCPC6A802",
+    "orderValue": 87
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "WITH",
+    "intro": "通用保留字，用于公共表表达式（CTE）",
+    "reserveWordId": "1MN1GCPE2A802",
+    "orderValue": 88
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "PARTITION",
+    "intro": "通用保留字，用于表分区（如 MySQL、PostgreSQL）",
+    "reserveWordId": "1MN1GCPFXA801",
+    "orderValue": 89
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ROW",
+    "intro": "通用保留字，某些数据库中用于行操作（如 SQLite 的 WITHOUT ROWID）",
+    "reserveWordId": "1MN1GCPKTA802",
+    "orderValue": 90
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "true",
+    "intro": "通用保留字，表示布尔真值",
+    "reserveWordId": "1MN1GCPMTA802",
+    "orderValue": 91
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "false",
+    "intro": "通用保留字，表示布尔假值",
+    "reserveWordId": "1MN1GCPPPA802",
+    "orderValue": 92
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NULLIF",
+    "intro": "通用保留字，函数名（返回 NULL 或值）",
+    "reserveWordId": "1MN1GCPRPA802",
+    "orderValue": 93
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "COALESCE",
+    "intro": "通用保留字，函数名（返回第一个非 NULL 值）",
+    "reserveWordId": "1MN1GCPVKA801",
+    "orderValue": 94
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "COUNT",
+    "intro": "通用保留字，聚合函数名",
+    "reserveWordId": "1MN1GCPXKA801",
+    "orderValue": 95
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SUM",
+    "intro": "通用保留字，聚合函数名",
+    "reserveWordId": "1MN1GCQ0FA802",
+    "orderValue": 96
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "AVG",
+    "intro": "通用保留字，聚合函数名",
+    "reserveWordId": "1MN1GCQ4AA801",
+    "orderValue": 97
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "MAX",
+    "intro": "通用保留字，聚合函数名",
+    "reserveWordId": "1MN1GCQ6AA801",
+    "orderValue": 98
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "MIN",
+    "intro": "通用保留字，聚合函数名",
+    "reserveWordId": "1MN1GCQ82A802",
+    "orderValue": 99
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "GROUP_CONCAT",
+    "intro": "MySQL/SQLite 特有，聚合函数名（将分组结果连接为字符串）",
+    "reserveWordId": "1MN1GCQA2A802",
+    "orderValue": 100
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "STORED",
+    "intro": "MySQL 特有，用于生成列定义（AS ... STORED）",
+    "reserveWordId": "1MN1GCQF2A802",
+    "orderValue": 101
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "VIRTUAL",
+    "intro": "MySQL 特有，用于生成列定义（AS ... VIRTUAL）",
+    "reserveWordId": "1MN1GCQGXA802",
+    "orderValue": 102
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "RETURNING",
+    "intro": "PostgreSQL 特有，用于插入/更新后返回结果",
+    "reserveWordId": "1MN1GCQJXA802",
+    "orderValue": 103
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ILIKE",
+    "intro": "PostgreSQL 特有，用于不区分大小写的模糊查询",
+    "reserveWordId": "1MN1GCQNTA801",
+    "orderValue": 104
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SIMILAR TO",
+    "intro": "PostgreSQL 特有，用于正则表达式匹配",
+    "reserveWordId": "1MN1GCQQXA801",
+    "orderValue": 105
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "LATERAL",
+    "intro": "PostgreSQL 特有，用于横向连接",
+    "reserveWordId": "1MN1GCQUPA802",
+    "orderValue": 106
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TOP",
+    "intro": "SQL Server 特有，用于限制返回行数（如 SELECT TOP 10）",
+    "reserveWordId": "1MN1GCQWPA801",
+    "orderValue": 107
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "OUTPUT",
+    "intro": "SQL Server 特有，用于捕获插入/更新的数据",
+    "reserveWordId": "1MN1GCQYFA801",
+    "orderValue": 108
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "MERGE",
+    "intro": "SQL Server 特有，用于合并数据操作（MERGE INTO）",
+    "reserveWordId": "1MN1GCR3AA802",
+    "orderValue": 109
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "NEXT",
+    "intro": "SQL Server 特有，分页语法（FETCH NEXT ... ROWS ONLY）",
+    "reserveWordId": "1MN1GCR76A802",
+    "orderValue": 110
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "ROWS",
+    "intro": "SQL Server 特有，分页语法（FETCH NEXT ... ROWS ONLY）",
+    "reserveWordId": "1MN1GCR96A802",
+    "orderValue": 111
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "VACUUM",
+    "intro": "SQLite 特有，用于清理数据库空间",
+    "reserveWordId": "1MN1GCRE6A802",
+    "orderValue": 112
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "WITHOUT ROWID",
+    "intro": "SQLite 特有，用于创建无行 ID 的表",
+    "reserveWordId": "1MN1GCRG2A802",
+    "orderValue": 113
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "INDEXED",
+    "intro": "SQLite 特有，用于强制使用索引（INDEXED BY）",
+    "reserveWordId": "1MN1GCRJ2A802",
+    "orderValue": 114
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TABLE",
+    "intro": "通用保留字，用于创建表或子查询（如 CREATE TABLE）",
+    "reserveWordId": "1MN1GCRMXA802",
+    "orderValue": 115
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CALL",
+    "intro": "通用保留字，用于调用存储过程（如 CALL procedure_name()）",
+    "reserveWordId": "1MN1GCRRTA801",
+    "orderValue": 116
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TRANSACTION",
+    "intro": "通用保留字，用于事务控制（如 BEGIN TRANSACTION）",
+    "reserveWordId": "1MN1GCRTPA802",
+    "orderValue": 117
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "SAVEPOINT",
+    "intro": "通用保留字，用于设置事务保存点（如 SQLite、PostgreSQL）",
+    "reserveWordId": "1MN1GCRXKA801",
+    "orderValue": 118
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "EXEC",
+    "intro": "SQL Server 特有，用于执行存储过程（如 EXEC procedure_name）",
+    "reserveWordId": "1MN1GCS0KA802",
+    "orderValue": 119
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "EXECUTE",
+    "intro": "通用保留字，与 EXEC 同义（如 PostgreSQL 的 EXECUTE）",
+    "reserveWordId": "1MN1GCS2FA801",
+    "orderValue": 120
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "DECLARE",
+    "intro": "通用保留字，用于声明变量（在存储过程中常用）",
+    "reserveWordId": "1MN1GCS6AA802",
+    "orderValue": 121
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "WHILE",
+    "intro": "通用保留字，用于循环控制（如 SQL Server 的存储过程）",
+    "reserveWordId": "1MN1GCSA2A801",
+    "orderValue": 122
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "LOOP",
+    "intro": "PostgreSQL 特有，用于存储过程中的循环结构",
+    "reserveWordId": "1MN1GCSD6A801",
+    "orderValue": 123
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "FETCH",
+    "intro": "通用保留字，用于游标操作（如 FETCH NEXT FROM cursor）",
+    "reserveWordId": "1MN1GCSFFA802",
+    "orderValue": 124
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CURSOR",
+    "intro": "通用保留字，用于声明游标（如 SQL Server 的存储过程）",
+    "reserveWordId": "1MN1GCSH2A801",
+    "orderValue": 125
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "OUT",
+    "intro": "通用保留字，用于存储过程的输出参数（如 CREATE PROCEDURE ... OUT）",
+    "reserveWordId": "1MN1GCSLTA802",
+    "orderValue": 126
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "INOUT",
+    "intro": "通用保留字，用于存储过程的输入输出参数",
+    "reserveWordId": "1MN1GCSNTA801",
+    "orderValue": 127
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CONDITION",
+    "intro": "MySQL 特有，用于异常处理中的条件声明",
+    "reserveWordId": "1MN1GCSQPA802",
+    "orderValue": 128
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "HANDLER",
+    "intro": "MySQL 特有，用于存储过程中的异常处理",
+    "reserveWordId": "1MN1GCSUPA802",
+    "orderValue": 129
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "RAISE",
+    "intro": "PostgreSQL 特有，用于抛出异常",
+    "reserveWordId": "1MN1GCSWKA801",
+    "orderValue": 130
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "TRY",
+    "intro": "SQL Server 特有，用于异常处理的 TRY...CATCH 结构",
+    "reserveWordId": "1MN1GCSYKA801",
+    "orderValue": 131
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "CATCH",
+    "intro": "SQL Server 特有，用于异常处理的 TRY...CATCH 结构",
+    "reserveWordId": "1MN1GCT3FA801",
+    "orderValue": 132
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "OVER",
+    "intro": "通用保留字，用于窗口函数（如 ROW_NUMBER() OVER）",
+    "reserveWordId": "1MN1GCT5FA801",
+    "orderValue": 133
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "PIVOT",
+    "intro": "SQL Server 特有，用于行列转换（如 PIVOT 操作）",
+    "reserveWordId": "1MN1GCT7AA802",
+    "orderValue": 134
+  },
+  {
+    "reserveWordType": "DB",
+    "keyWord": "UNPIVOT",
+    "intro": "SQL Server 特有，用于列行转换（如 UNPIVOT 操作）",
+    "reserveWordId": "1MN1GCT9AA801",
+    "orderValue": 135
+  }
+]

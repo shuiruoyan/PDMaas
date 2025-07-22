@@ -1,0 +1,27 @@
+.@{prefix}-container-model-mermaid-quicktool {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  z-index: 1;
+  border: 1px solid @primary-border-color;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: @background-color;
+  & > span + span {
+    margin-left: 10px;
+  }
+  &-line {
+    height: 12px;
+    border-left: 1px solid @primary-border-color;
+  }
+  & > span {
+    cursor: pointer;
+  }
+  &-fold {
+    width: 28px;
+    overflow: hidden;
+  }
+}

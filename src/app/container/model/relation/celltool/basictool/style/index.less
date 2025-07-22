@@ -1,0 +1,39 @@
+.@{prefix}-container-model-relation-celltool-basictool {
+  display: flex;
+  flex-direction: row;
+  background: @background-color;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid @primary-second-border-color;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+  i {
+    font-size: 18px !important;
+  }
+  &-line {
+    border-left: 1px solid @primary-second-border-color;
+    cursor: default;
+    padding: 0 !important;
+    margin-left: 5px;
+  }
+  &-item {
+    & + & {
+      margin-left: 5px;
+    }
+    &-group {
+      display: flex;
+      flex-direction: row;
+      & > span {
+        padding: 3px;
+        &:hover {
+          cursor: pointer;
+          background: @background-second-color;
+        }
+      }
+      & + & {
+        margin-left: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.@{prefix}-container-model-mind-bar {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  &-group + &-group {
+    margin-left: 10px;
+  }
+  &-group {
+    display: flex;
+    background: @background-color;
+    box-shadow: 0 0 6px 2px @primary-border-color;
+    padding: 5px 10px;
+    border-radius: 3px;
+    &-item {
+      padding: 5px;
+      margin-left: 8px;
+      margin-right: 8px;
+      cursor: pointer;
+      font-size: 12px;
+      & > span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        & > span {
+          padding-top: 3px;
+          white-space: nowrap;
+        }
+        & > i {
+          border-radius: 3px;
+          border: 1px solid @primary-border-color;
+          width: 25px;
+          height: 25px;
+          //padding: 1px;
+          //padding-top: 3px;
+          text-align: center;
+        }
+      }
+      &:hover {
+        //background: @primary-border-color;
+        & > span > i {
+          background: @primary-border-color;
+        }
+      }
+      &-active {
+        background: @primary-border-color;
+      }
+      &-disable {
+        cursor: not-allowed;
+        color: @four-font-color;
+        & > span > i {
+          background: @background-color !important;
+        }
+      }
+    }
+  }
+  &-expand {
+
+  }
+  &-normal {
+    & > div {
+      display: none;
+    }
+    & > span:last-child {
+      bottom: 0;
+    }
+    & > span:last-child > i {
+      transform: rotate(90deg);
+    }
+  }
+  &-expandopt {
+    cursor: pointer;
+    position: absolute;
+    right: -33px;
+    bottom: 16px;
+    & > i {
+      border-radius: 3px;
+      padding: 3px;
+      border: 1px solid @primary-border-color;
+      transform: rotate(270deg);
+    }
+  }
+}

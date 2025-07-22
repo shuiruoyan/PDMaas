@@ -1,0 +1,1932 @@
+{
+	"id":"",
+	"producer":"PDManer/PDMaasCC/PDMaasEE",
+	"version":"",
+	"owner":"",
+	"project":{
+		"name":"",
+		"intro":"",
+		"branch":"",
+		"homeCoverDiagram":{},
+		"categories":[{
+			"id":"categoryId",
+			"parentId":"",
+			"defKey":"",
+			"defName":"",
+			"peerOrder":"",
+			"intro":"",
+			"entityRefs":[{"refObjectId":"entity","refObjectType":"P","orderValue":1,"ref":{"ID指向的对象":""}},
+				{"refObjectId":"entity1","refObjectType":"L","orderValue":"顺序号","ref":{"ID指向的对象":""}},
+				{"refObjectId":"entity_C","refObjectType":"C","orderValue":"顺序号","ref":{"ID指向的对象":""}}],
+			"diagramRefs":[{"refObjectId":"diagram","refObjectType":"C","orderValue":2,"ref":{"ID指向的对象":""}},
+				{"refObjectId":"diagram1","refObjectType":"L","orderValue":2,"ref":{"ID指向的对象":""}},
+				{"refObjectId":"diagram3","refObjectType":"M","orderValue":2,"ref":{"ID指向的对象":""}},
+				{"refObjectId":"diagram4","refObjectType":"F","orderValue":2,"ref":{"ID指向的对象":""}}],
+			"children":[]
+		}],
+		"flat":{
+			"entityRefs":[{"refObjectId":"entity","refObjectType":"P","orderValue":"顺序号","ref":{"ID指向的对象":""}},
+				{"refObjectId":"entity1","refObjectType":"L","orderValue":"顺序号","ref":{"ID指向的对象":""}}],
+			"diagramRefs":[{"refObjectId":"diagram","refObjectType":"C","orderValue":"顺序号","ref":{"ID指向的对象":""}},
+				{"refObjectId":"diagram3","refObjectType":"M","orderValue":2,"ref":{"ID指向的对象":""}},
+				{"refObjectId":"diagram4","refObjectType":"F","orderValue":2,"ref":{"ID指向的对象":""}}]
+		},
+		"entities":[
+			{
+				"id":"entity_C",
+				"type":"C",
+				"schemaName":"",
+				"defKey":"entity_C",
+				"defName":"entity_C",
+				"intro":"我是概念实体",
+				"mark":{}
+			},
+			{
+			"id":"entity",
+			"type":"P",
+			"schemaName":"",
+			"defKey":"entityKey",
+			"defName":"entity",
+			"intro":"",
+			"mark":{},
+			"attr1":"",
+			"attr2":"",
+			"……":"",
+			"attr20":"",
+			"props":{"kv用于单实体级设置信息存这里":""},
+			"fields":[
+				{
+				"id":"${projectId}-${UID}_1",
+				"defKey":"username",
+				"defName":"用户名",
+				"intro":"",
+				"baseDataType":"string",
+				"bizDomainType":"主键ID",
+				"dbDataType":"varchar",
+				"dataLen": 100,
+				"numScale":"",
+				"primaryKey": 1,
+				"notNull": 0,
+				"autoIncrement": 1,
+				"defaultValue":"",
+				"stndDictId":"",
+				"stndDictKey":"",
+				"stndFieldId":"",
+				"stndFieldKey":"",
+				"mark":{},
+				"attr1":"",
+				"attr2":"",
+				"attr3":"",
+				"attr4":"",
+				"attr5":"",
+				"attr6":"",
+				"attr7":"",
+				"attr8":"",
+				"attr9":"",
+				"attr10":"",
+				"attr11":"",
+				"attr12":"",
+				"attr13":"",
+				"attr14":"",
+				"attr15":"",
+				"attr16":"",
+				"attr17":"",
+				"attr18":"",
+				"attr19":"",
+				"attr20":"",
+				"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+			},{
+				"id":"${projectId}-${UID}_2",
+				"defKey":"password2",
+				"defName":"密码",
+				"intro":"",
+				"baseDataType":"字符串",
+				"bizDomainType":"主键ID",
+				"dbDataType":"varchar",
+				"dataLen": 100,
+				"numScale":"",
+				"primaryKey":"",
+				"notNull":"",
+				"autoIncrement":"",
+				"defaultValue":"",
+				"stndDictId":"",
+				"stndDictKey":"",
+				"stndFieldId":"",
+				"stndFieldKey":"",
+				"mark":{},
+				"attr1":"",
+				"attr2":"",
+				"attr3":"",
+				"attr4":"",
+				"attr5":"",
+				"attr6":"",
+				"attr7":"",
+				"attr8":"",
+				"attr9":"",
+				"attr10":"",
+				"attr11":"",
+				"attr12":"",
+				"attr13":"",
+				"attr14":"",
+				"attr15":"",
+				"attr16":"",
+				"attr17":"",
+				"attr18":"",
+				"attr19":"",
+				"attr20":"",
+				"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+			}, {
+				"id":"${projectId}-${UID}_3",
+				"defKey":"password3",
+				"defName":"密码",
+				"intro":"",
+				"baseDataType":"字符串",
+				"bizDomainType":"主键ID",
+				"dbDataType":"varchar",
+				"dataLen": 100,
+				"numScale":"",
+				"primaryKey":"",
+				"notNull":"",
+				"autoIncrement":"",
+				"defaultValue":"",
+				"stndDictId":"",
+				"stndDictKey":"",
+				"stndFieldId":"",
+				"stndFieldKey":"",
+				"mark":{},
+				"attr1":"",
+				"attr2":"",
+				"attr3":"",
+				"attr4":"",
+				"attr5":"",
+				"attr6":"",
+				"attr7":"",
+				"attr8":"",
+				"attr9":"",
+				"attr10":"",
+				"attr11":"",
+				"attr12":"",
+				"attr13":"",
+				"attr14":"",
+				"attr15":"",
+				"attr16":"",
+				"attr17":"",
+				"attr18":"",
+				"attr19":"",
+				"attr20":"",
+				"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+			},{
+				"id":"${projectId}-${UID}_4",
+				"defKey":"password4",
+				"defName":"密码",
+				"intro":"",
+				"baseDataType":"字符串",
+				"bizDomainType":"主键ID",
+				"dbDataType":"varchar",
+				"dataLen": 100,
+				"numScale":"",
+				"primaryKey":"",
+				"notNull":"",
+				"autoIncrement":"",
+				"defaultValue":"",
+				"stndDictId":"",
+				"stndDictKey":"",
+				"stndFieldId":"",
+				"stndFieldKey":"",
+				"mark":{},
+				"attr1":"",
+				"attr2":"",
+				"attr3":"",
+				"attr4":"",
+				"attr5":"",
+				"attr6":"",
+				"attr7":"",
+				"attr8":"",
+				"attr9":"",
+				"attr10":"",
+				"attr11":"",
+				"attr12":"",
+				"attr13":"",
+				"attr14":"",
+				"attr15":"",
+				"attr16":"",
+				"attr17":"",
+				"attr18":"",
+				"attr19":"",
+				"attr20":"",
+				"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+			}],
+			"indexes":[{
+				"id":"${branchId}-${UID}",
+				"type":"UNIQUE/NORMAL",
+				"defKey":"index",
+				"defName":"索引",
+				"intro":"",
+				"fields":[{
+					"id":"${projectId}-${UID}_1",
+					"fieldId": "${projectId}-${UID}_1",
+					"fieldDefKey":"username",
+					"sortType":"DESC"
+				}]
+			}],
+			"refers":[{
+				"id":"${branchId}-${UID}",
+				"type":">:many-to-one | <:one-to-many | -:one-to-one| <>: many-to-many {只用第一个}",
+				"defKey":"留着不用",
+				"defName":"留着不用",
+				"intro":"留着不用",
+				"myFieldKey":"当前表的字段",
+				"refSchemaName":"引用对象schema",
+				"refEntityKey":"引用对象实体key",
+				"refFieldKey":"引用对象fieldKey",
+				"orderValue":1
+			}]
+		}, {
+			"id":"entity1",
+			"type":"L",
+			"schemaName":"",
+			"defKey":"entity_l",
+			"defName":"entity_l",
+			"intro":"",
+			"mark":{},
+			"attr1":"",
+			"attr2":"",
+			"……":"",
+			"attr20":"",
+			"props":{"kv用于单实体级设置信息存这里":""},
+			"fields":[
+				{
+					"id":"${projectId}-${UID}_1",
+					"defKey":"username",
+					"defName":"用户名",
+					"intro":"",
+					"baseDataType":"字符串",
+					"bizDomainType":"主键ID",
+					"dbDataType":"varchar",
+					"dataLen": 100,
+					"numScale":"",
+					"primaryKey": true,
+					"notNull":"",
+					"autoIncrement":"",
+					"defaultValue":"",
+					"stndDictId":"",
+					"stndDictKey":"",
+					"stndFieldId":"",
+					"stndFieldKey":"",
+					"mark":{},
+					"attr1":"",
+					"attr2":"",
+					"attr3":"",
+					"attr4":"",
+					"attr5":"",
+					"attr6":"",
+					"attr7":"",
+					"attr8":"",
+					"attr9":"",
+					"attr10":"",
+					"attr11":"",
+					"attr12":"",
+					"attr13":"",
+					"attr14":"",
+					"attr15":"",
+					"attr16":"",
+					"attr17":"",
+					"attr18":"",
+					"attr19":"",
+					"attr20":"",
+					"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+				},{
+					"id":"${projectId}-${UID}_2",
+					"defKey":"password2",
+					"defName":"密码",
+					"intro":"",
+					"baseDataType":"字符串",
+					"bizDomainType":"主键ID",
+					"dbDataType":"varchar",
+					"dataLen": 100,
+					"numScale":"",
+					"primaryKey":"",
+					"notNull":"",
+					"autoIncrement":"",
+					"defaultValue":"",
+					"stndDictId":"",
+					"stndDictKey":"",
+					"stndFieldId":"",
+					"stndFieldKey":"",
+					"mark":{},
+					"attr1":"",
+					"attr2":"",
+					"attr3":"",
+					"attr4":"",
+					"attr5":"",
+					"attr6":"",
+					"attr7":"",
+					"attr8":"",
+					"attr9":"",
+					"attr10":"",
+					"attr11":"",
+					"attr12":"",
+					"attr13":"",
+					"attr14":"",
+					"attr15":"",
+					"attr16":"",
+					"attr17":"",
+					"attr18":"",
+					"attr19":"",
+					"attr20":"",
+					"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+				}, {
+					"id":"${projectId}-${UID}_3",
+					"defKey":"password3",
+					"defName":"密码",
+					"intro":"",
+					"baseDataType":"字符串",
+					"bizDomainType":"主键ID",
+					"dbDataType":"varchar",
+					"dataLen": 100,
+					"numScale":"",
+					"primaryKey":"",
+					"notNull":"",
+					"autoIncrement":"",
+					"defaultValue":"",
+					"stndDictId":"",
+					"stndDictKey":"",
+					"stndFieldId":"",
+					"stndFieldKey":"",
+					"mark":{},
+					"attr1":"",
+					"attr2":"",
+					"attr3":"",
+					"attr4":"",
+					"attr5":"",
+					"attr6":"",
+					"attr7":"",
+					"attr8":"",
+					"attr9":"",
+					"attr10":"",
+					"attr11":"",
+					"attr12":"",
+					"attr13":"",
+					"attr14":"",
+					"attr15":"",
+					"attr16":"",
+					"attr17":"",
+					"attr18":"",
+					"attr19":"",
+					"attr20":"",
+					"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+				},{
+					"id":"${projectId}-${UID}_4",
+					"defKey":"password4",
+					"defName":"密码",
+					"intro":"",
+					"baseDataType":"字符串",
+					"bizDomainType":"主键ID",
+					"dbDataType":"varchar",
+					"dataLen": 100,
+					"numScale":"",
+					"primaryKey":"",
+					"notNull":"",
+					"autoIncrement":"",
+					"defaultValue":"",
+					"stndDictId":"",
+					"stndDictKey":"",
+					"stndFieldId":"",
+					"stndFieldKey":"",
+					"mark":{},
+					"attr1":"",
+					"attr2":"",
+					"attr3":"",
+					"attr4":"",
+					"attr5":"",
+					"attr6":"",
+					"attr7":"",
+					"attr8":"",
+					"attr9":"",
+					"attr10":"",
+					"attr11":"",
+					"attr12":"",
+					"attr13":"",
+					"attr14":"",
+					"attr15":"",
+					"attr16":"",
+					"attr17":"",
+					"attr18":"",
+					"attr19":"",
+					"attr20":"",
+					"origin":"UI/IMPORT/PASTE/INIT/REVERSE/BATCH 界面录入/导入工具/粘帖录入/默认初始化/逆向解析/批量工具添加"
+				}],
+			"correlations":"",
+			"indexes":[{
+				"id":"${branchId}-${UID}",
+				"type":"UNIQUE/NORMAL",
+				"defKey":"index",
+				"defName":"索引",
+				"intro":"",
+				"fields":[{
+					"id":"${projectId}-${UID}_1",
+					"fieldId": "${projectId}-${UID}_1",
+					"fieldDefKey":"username",
+					"sortType":"DESC"
+				}]
+			}]
+		}],
+		"diagrams":[{
+			"id": "diagram",
+			"defKey":"diagram",
+			"defName":"diagram",
+			"type":"P",
+			"entityRelationRank":"F",
+			"props":{
+				"entityDisplay":{
+					"showFields":["defKey","defName"],
+					"logicModelCompactShow":"K",
+					"logicModelCompactDelimiter":"1"
+				},
+				"entitySetting":{
+					"titleText":{"optionValue":"A","customValue":"{defKey}[{defName}]"},
+					"titleStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"contentStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"primaryKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"foreignKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"fieldStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"borderStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}},
+					"divideLineStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}
+					},
+					"defaultSize": {
+						"optionValue": "C",
+						"width": 200,
+						"height": 200
+					}
+				},
+				"shapeGeneral":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"linkLine":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"textbox":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"14",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(183,185,189)",
+						"fill-opacity": 1
+					}
+				}
+			},
+			"cellsData":[
+			]
+		}, {
+			"id": "diagram1",
+			"defKey":"diagram1",
+			"defName":"diagram1",
+			"type":"L",
+			"entityRelationRank":"F",
+			"props":{
+				"entityDisplay":{
+					"showFields":["defKey","defName"],
+					"logicModelCompactShow":"K",
+					"logicModelCompactDelimiter":"1"
+				},
+				"entitySetting":{
+					"titleText":{"optionValue":"A","customValue":"{defKey}[{defName}]"},
+					"titleStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"contentStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"primaryKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"foreignKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"fieldStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"borderStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}},
+					"divideLineStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}
+					}
+				},
+				"shapeGeneral":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"linkLine":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"textbox":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"14",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(183,185,189)",
+						"fill-opacity": 1
+					}
+				}
+			},
+			"cellsData":[
+			]
+		}, {
+			"id": "diagram3",
+			"defKey":"diagram3",
+			"defName":"diagram3",
+			"type":"M",
+			"entityRelationRank":"F",
+			"props":{
+				"entityDisplay":{
+					"showFields":["defKey","defName"],
+					"logicModelCompactShow":"K",
+					"logicModelCompactDelimiter":"1"
+				},
+				"entitySetting":{
+					"titleText":{"optionValue":"A","customValue":"{defKey}[{defName}]"},
+					"titleStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"contentStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"primaryKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"foreignKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"fieldStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"borderStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}},
+					"divideLineStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}
+					}
+				},
+				"shapeGeneral":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"linkLine":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"textbox":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"14",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(183,185,189)",
+						"fill-opacity": 1
+					}
+				}
+			},
+			"cellsData":[{
+				"data": {
+					"text": "根节点",
+					"uid": "root"
+				},
+				"children": []
+			}
+			]
+		}, {
+			"id": "diagram4",
+			"defKey":"diagram4",
+			"defName":"diagram4",
+			"type":"F",
+			"entityRelationRank":"F",
+			"props":{
+				"entityDisplay":{
+					"showFields":["defKey","defName"],
+					"logicModelCompactShow":"K",
+					"logicModelCompactDelimiter":"1"
+				},
+				"entitySetting":{
+					"titleText":{"optionValue":"A","customValue":"{defKey}[{defName}]"},
+					"titleStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"contentStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"primaryKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"foreignKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"fieldStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"borderStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}},
+					"divideLineStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}
+					}
+				},
+				"shapeGeneral":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"linkLine":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"textbox":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"14",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(183,185,189)",
+						"fill-opacity": 1
+					}
+				}
+			},
+			"cellsData":[{
+				"data": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/></root></mxGraphModel>"
+			}]
+		},  {
+			"id": "diagram5",
+			"defKey":"diagram4",
+			"defName":"diagram4",
+			"type":"F",
+			"entityRelationRank":"F",
+			"props":{
+				"entityDisplay":{
+					"showFields":["defKey","defName"],
+					"logicModelCompactShow":"K",
+					"logicModelCompactDelimiter":"1"
+				},
+				"entitySetting":{
+					"titleText":{"optionValue":"A","customValue":"{defKey}[{defName}]"},
+					"titleStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"contentStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"primaryKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"foreignKeyStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"fieldStyle":{
+						"text":{
+							"fill":"rgb(233,0,0)",
+							"font-weight":"bold",
+							"font-style":"italic",
+							"text-decoration":"underline",
+							"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+							"fontSize":"14",
+							"textAnchor": "start",
+							"textVerticalAnchor": "top"
+						},
+						"body": {
+							"fill": "rgb(183，185，189)",
+							"fill-opacity": 1
+						}
+					},
+					"borderStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}},
+					"divideLineStyle":{
+						"body": {
+							"stroke": "#8f8f8f",
+							"stroke-dasharray": "2",
+							"stroke-opacity": 0.78695652173913,
+							"stroke-width": 3.173913043478261
+						}
+					}
+				},
+				"shapeGeneral":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"linkLine":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"20px",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(255,0,0)",
+						"fill-opacity": 1,
+						"stroke": "#f00",
+						"stroke-dasharray": "2",
+						"stroke-opacity": 0.78695652173913,
+						"stroke-width": 3.173913043478261
+					}
+				},
+				"textbox":{
+					"text":{
+						"fill":"",
+						"font-weight":"bold",
+						"font-style":"italic",
+						"text-decoration":"underline",
+						"fontFamily":"思源黑体,Arial,helvetica,sans-serif",
+						"fontSize":"14",
+						"textAnchor": "middle",
+						"textVerticalAnchor": "middle"
+					},
+					"body": {
+						"fill": "rgb(183,185,189)",
+						"fill-opacity": 1
+					}
+				}
+			},
+			"cellsData":[{
+				"data": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/></root></mxGraphModel>"
+			}]
+		}]
+	},
+	"profile":{
+		"user":{
+			"skin":"",
+			"dark":"false",
+			"angle":"A",
+			"modelingNavDisplay":{
+				"darkOrLight": "L",
+				"hierarchyType":"TREE",
+				"nodeType":"ALL",
+				"categoryNode":     {"optionValue":"A","customValue":""},
+				"conceptEntityNode":{"optionValue":"A","customValue":"","orderValue":"顺序号"},
+				"logicEntityNode":  {"optionValue":"A","customValue":"","orderValue":"顺序号"},
+				"physicEntityNode": {"optionValue":"A","customValue":"","orderValue":"顺序号"},
+				"diagramNode":      {"optionValue":"A","customValue":"","orderValue":"顺序号"}
+			},
+			"freezeEntityHeader":{
+				"logicEntity":{"defKey":{"width":100,"fixed":"L"}},
+				"physicEntity":{"defKey":{"width":100,"fixed":"L"}}
+			},
+			"hotkeys":{
+				"命令KEY":"CTRL+S"
+			}
+		},
+		"project":{
+			"branch":"main/dev/sit/prd 具体分支由用户自己来制订",
+			"dbDialect":"MySQL",
+			"schema":"",
+			"status":"ADMIN/EDIT/CLOSE 管理/编辑/关闭",
+			"allow":"W/R",
+			"setting":{
+				"physicEntityPresetFields":[],
+				"physicEntityAttr":{
+					"attr1": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 1
+					},
+					"attr2": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 2
+					},
+					"attr3": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 3
+					},
+					"attr4": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 4
+					},
+					"attr5": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 5
+					},
+					"attr6": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 6
+					},
+					"attr7": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 7
+					},
+					"attr8": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 8
+					},
+					"attr9": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 9
+					},
+					"attr10": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 10
+					},
+					"attr11": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 11
+					},
+					"attr12": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 12
+					},
+					"attr13": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 13
+					},
+					"attr14": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 14
+					},
+					"attr15": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 15
+					},
+					"attr16": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 16
+					},
+					"attr17": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 17
+					},
+					"attr18": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 18
+					},
+					"attr19": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 19
+					},
+					"attr20": {
+						"enable": 0,
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": "",
+						"orderValue": 20
+					}
+				},
+				"physicEntityFieldAttr":{
+					"attr1": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr2": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr3": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr4": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr5": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr6": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr7": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr8": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr9": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr10": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr11": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr12": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr13": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr14": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr15": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr16": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr17": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr18": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr19": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					},
+					"attr20": {
+						"title": "",
+						"editType": "SingleText",
+						"defaultValue": "",
+						"optionsFetcher": "",
+						"optionsData": ""
+					}
+				},
+				"physicEntityHeader":{
+					"defKey": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":1
+					},
+					"defName": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":2
+					},
+					"baseDataType": {
+						"enable": 1,
+						"columnWidth":200,
+						"orderValue":3
+					},
+					"bizDomainType": {
+						"enable": 1,
+						"columnWidth":200,
+						"orderValue":4
+					},
+					"dbDataType": {
+						"enable": 1,
+						"columnWidth":200,
+						"orderValue":5
+					},
+					"dataLen": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":6
+					},
+					"numScale": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":7
+					},
+					"primaryKey": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":8
+					},
+					"notNull": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":9
+					},
+					"autoIncrement": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":10
+					},
+					"defaultValue": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":11
+					},
+					"stndDictKey": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":12
+					},
+					"stndFieldKey": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":13
+					},
+					"intro": {
+						"enable": 1,
+						"columnWidth":100,
+						"orderValue":14
+					},
+					"attr1": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":15
+					},
+					"attr2": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":16
+					},
+					"attr3": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":17
+					},
+					"attr4": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":18
+					},
+					"attr5": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":19
+					},
+					"attr6": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":20
+					},
+					"attr7": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":21
+					},
+					"attr8": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":22
+					},
+					"attr9": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":23
+					},
+					"attr10": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":24
+					},
+					"attr11": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":25
+					},
+					"attr12": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":26
+					},
+					"attr13": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":27
+					},
+					"attr14": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":28
+					},
+					"attr15": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":29
+					},
+					"attr16": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":30
+					},
+					"attr17": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":31
+					},
+					"attr18": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":32
+					},
+					"attr19": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":33
+					},
+					"attr20": {
+						"enable": 0,
+						"columnWidth":100,
+						"orderValue":34
+					}
+				}
+			}
+		},
+		"team":{
+			"specCheckRules":[],
+			"bizDomainTypes":[{
+				"id":"业务域类型ID",
+				"defKey": "DefaultString",
+				"defName": "默认字串",
+				"baseDataType": "string",
+				"dataLen": 255,
+				"numScale": "",
+				"primaryKey":"",
+				"notNull":"",
+				"autoIncrement":"",
+				"defaultValue":""
+			}],
+			"dbEnv":[{
+				"envId":"",
+				"envKey":"",
+				"envName":"",
+				"envIntro":"",
+				"isCurrent":true,
+				"markColor":"",
+				"dbConn":{
+					"dbDialect":"到底是ID还是KEY?需要进一步考量",
+					"driverClass":"",
+					"url":"",
+					"username":"",
+					"password":"",
+					"extParams":"",
+					"encryptUrl":true,
+					"encryptUsername":true,
+					"encryptPassword":true
+				}
+			}]
+		},
+		"global":{
+			"dataTypes":[{
+				"id":"",
+				"defKey":"string",
+				"defName":"字符串",
+				"icon":"<svg t=\"1719369990800\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"7902\" width=\"200\" height=\"200\"><path d=\"M92.352 188.352a96 96 0 0 1 96-96h647.296a96 96 0 0 1 96 96V318.08a32 32 0 1 1-64 0V188.352a32 32 0 0 0-32-32H188.352a32 32 0 0 0-32 32V318.08a32 32 0 0 1-64 0V188.352zM124.352 673.792a32 32 0 0 1 32 32v129.856a32 32 0 0 0 32 32h647.296a32 32 0 0 0 32-32v-129.856a32 32 0 0 1 64 0v129.856a96 96 0 0 1-96 96H188.352a96 96 0 0 1-96-96v-129.856a32 32 0 0 1 32-32z\" fill=\"#000000\" p-id=\"7903\"></path><path d=\"M320.512 559.424l26.624 73.344h51.2L286.464 340.416h-54.4L120.32 632.768h51.2l26.56-73.344h122.432z m-61.824-167.424h1.6l45.888 128.128H212.416l46.272-128.128z m188.608-57.28v298.048h43.392v-22.528c14.72 18.752 36.032 28.224 63.872 28.224 31.104 0 55.68-11.072 73.664-33.216 16.32-20.416 24.512-46.848 24.512-79.36 0-30.848-8.064-56.64-24.128-77.376-17.408-22.08-41.344-33.216-71.68-33.216-24.768 0-45.76 11.648-62.976 34.88V334.72h-46.72z m61.44 136.768a45.888 45.888 0 0 1 37.312-18.432c20.992 0 36.352 6.912 46.208 20.864 8.448 12.288 12.672 29.568 12.672 51.968 0 22.656-3.968 40.256-11.84 52.864-9.792 14.72-24.96 22.08-45.44 22.08a47.872 47.872 0 0 1-42.176-21.76c-8.704-12.8-13.056-29.76-13.056-50.752v-3.264c-0.064-22.848 5.376-40.768 16.32-53.568z m297.088-18.048c14.208 0 25.536 3.264 33.92 9.792 8.512 6.848 14.08 16.832 16.768 29.888h46.272c-4.096-26.24-14.592-45.952-31.488-59.328-16.384-12.352-38.272-18.496-65.536-18.496-33.024 0-58.752 11.072-77.312 33.28-17.28 19.84-25.792 45.952-25.792 78.08 0 33.088 8.768 59.648 26.24 79.872 17.92 21.248 43.328 32 76.16 32 27.2 0 49.152-6.912 65.792-20.48 16.96-13.952 27.84-35.2 32.832-63.872h-46.336c-3.84 30.848-21.12 46.208-51.968 46.208-17.984 0-31.488-6.4-40.512-19.2-9.6-12.8-14.336-31.104-14.336-54.912 0-23.168 4.928-40.96 14.72-53.632 9.6-12.8 23.04-19.2 40.576-19.2z\" fill=\"#000000\" p-id=\"7904\"></path></svg>",
+				"color":"",
+				"requireLen":true,
+				"requireScale":false,
+				"dbDataType":{
+					"MySQL":"VARCHAR",
+					"Oracle":"VARCHAR2"
+				},
+				"langDataType":{
+					"Java":"String",
+					"CSharp":"string"
+				}
+			}],
+			"dbDialects":[{
+				"id":"",
+				"defKey":"MySQL",
+				"defName":"",
+				"icon":"",
+				"color":"",
+				"isEnabled":"true",
+				"jdbcReferDriver":"com.mysql.cj.jdbc.Driver",
+				"jdbcReferUrl":"jdbc:mysql://[ip]:[port]/[dbname]?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC",
+				"tableCreate":"",
+				"tableUpdate":"",
+				"tableDelete":"",
+				"columnCreate":"",
+				"columnUpdate":"",
+				"columnDelete":"",
+				"indexCreate":"",
+				"indexUpdate":"",
+				"indexDelete":""
+			}],
+			"programLangs":[{
+				"id":"Java",
+				"defKey":"Java",
+				"defName":"Java",
+				"icon":"",
+				"color":"",
+				"isEnabled":"true",
+				"codegens":[{
+					"genKey":"SpringMVCMybatis",
+					"genIntro":"",
+					"genItems":[{
+						"itemKey":"Controller.java",
+						"itemIntro":"",
+						"itemTemplate":""
+					},{
+						"itemKey":"Service.java",
+						"itemIntro":"",
+						"itemTemplate":""
+					}]
+				}]
+			}],
+			"opceTemplets":[{
+				"opceKey":"MOP_ENTITY_CREATE",
+				"opceName":"实体创建",
+				"opceIntro":"",
+				"affectDdl":true,
+				"orderValue":1,
+				"messageTemplet":"",
+				"dataSample": ""
+			}],
+			"threshold":{
+
+			}
+		}
+	},
+	"addonProps":{
+		"teamId":"BPH27W74E4AAC"
+	}
+}

@@ -1,0 +1,77 @@
+.@{prefix}-components-presetcolorpicker {
+  padding: 5px;
+  width: 270px;
+  &-button {
+    display: inline-block;
+    margin-left: 5px;
+    .@{prefix}-components-button {
+      padding: 2px 4px;
+      height: auto;
+      min-width: auto;
+    }
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    & + & {
+      margin-top: 8px;
+    }
+    & > span:first-child {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-list {
+      margin: 5px 0;
+      background: @background-second-color;
+      border-radius: 3px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      & > span {
+        text-align: center;
+        cursor: pointer;
+        padding: 5px;
+        width: 30%;
+      }
+      &-active {
+        background: @background-color;
+        border: 1px solid @primary-border-color;
+        box-shadow: 0 2px 4px @button-shadow;
+      }
+    }
+  }
+  &-color {
+    &-active {
+      border: 1.5px solid @primary-color;
+    }
+    &-notColor {
+      &::after {
+        content: '';
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        width: 18px;
+        height: 0.5px;
+        background-color: @third-font-color;
+        top: -7px;
+        transform: rotate(-45deg);
+      }
+    }
+    &-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1.5px solid @primary-border-color;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}

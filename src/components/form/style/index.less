@@ -1,0 +1,35 @@
+.@{prefix}-components-form {
+  &-item {
+    & + & {
+      margin-top: 12px;
+    }
+    display: inline-flex;
+    flex-direction: row;
+    & > span:first-child {
+      text-align: right;
+      margin-right: 8px;
+    }
+    & > span:last-child {
+      flex-grow: 1;
+      height: 25px;
+    }
+    & > span:last-child:has(textarea) {
+      height: auto;
+    }
+    & > span {
+      display: inline-block;
+    }
+    &-require {
+      .@{prefix}-components-form-item-label {
+        position: relative;
+        &:before {
+          content: "*";
+          position: absolute;
+          color: @danger-color;
+          left: -10px;
+          top: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.@{prefix}-container-model-mermaid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  &-left {
+    transition: width 0.3s;
+    &-expand {
+      width: 40%;
+      border-right: 1px solid @primary-border-color;
+    }
+    &-normal {
+      width: 0 !important;
+      border-right: 1px solid transparent;
+      .@{prefix}-container-model-mermaid-left-icon {
+        right: -34px;
+        top: 8px;
+      }
+    }
+    height: 100%;
+    position: relative;
+    &-icon {
+      z-index: 1;
+      position: absolute;
+      right: -10px;
+      top: 0;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 50%;
+      background: #ffffffa8;
+      border: 1px solid @primary-border-color;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        transition: background 0.3s;
+        background: #FFFFFF;
+      }
+      & > i {
+        color: @primary-border-color;
+        font-size: 20px;
+      }
+    }
+  }
+  &-right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    & > svg {
+      max-width: 100% !important;
+      height: 100%;
+    }
+  }
+}

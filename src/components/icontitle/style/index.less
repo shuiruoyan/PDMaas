@@ -1,0 +1,40 @@
+.@{prefix}-components-groupicon {
+  &-group {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid @primary-border-color;
+    padding: 5px 8px;
+    border-radius: 5px;
+    & > span + span {
+      border-left: 1px solid @primary-border-color;
+    }
+  }
+  &-item {
+    & + & {
+      margin-left: 7px;
+      padding-left: 7px;
+    }
+    &-content {
+      user-select: none;
+      cursor: pointer;
+      & > span:first-child > i {
+        margin-right: 3px;
+      }
+      &-disable {
+        color: @primary-border-color !important;
+        cursor: not-allowed !important;
+      }
+      &-loading {
+        i {
+          animation: loading 1s infinite linear;
+        }
+      }
+      &-drop {
+        padding-left: 3px;
+        margin-left: 3px;
+        border-left: 1px solid @primary-border-color;
+      }
+    }
+  }
+}

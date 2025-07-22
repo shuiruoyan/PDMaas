@@ -1,0 +1,54 @@
+.@{prefix}-components-resize {
+  .border(){
+    position: absolute;
+    top: 0;
+    width: 4px;
+    background: transparent;
+    cursor: col-resize;
+    height: 100%;
+    z-index: 1;
+  }
+  position: relative;
+  &-border {
+    &-right {
+      right: 0;
+      .border()
+    }
+    &-left {
+      left: 0;
+      .border()
+    }
+    &-bottom {
+      position: absolute;
+      bottom: -4px;
+      width: 100% !important;
+      background: transparent;
+      cursor: row-resize;
+      height: 4px !important;
+      z-index: 1;
+
+    }
+    &-move {
+      &-left, &-right {
+        left: 0;
+        top: 0;
+        display: none;
+        z-index: 999;
+        border-right: 4px dashed @primary-color;
+        position: fixed;
+        pointer-events: none;
+        height: 100%;
+      }
+      &-bottom {
+        left: 0;
+        top: 0;
+        display: none;
+        z-index: 999;
+        border-bottom: 4px dashed @primary-color;
+        position: fixed;
+        pointer-events: none;
+        width: 100%;
+      }
+    }
+  }
+}

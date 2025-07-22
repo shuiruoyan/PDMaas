@@ -1,0 +1,125 @@
+.modal-status(@status-color){
+  i {
+    margin-right: 10px;
+    background: @status-color;
+    padding: 2px;
+    min-width: 18px;
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    color: @background-color;
+  }
+}
+
+.@{prefix}-components-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  height: 100%;
+  background-color: @modal-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  &-container {
+    width: 520px
+  }
+  &-body {
+    flex-grow: 1;
+    overflow: auto;
+  }
+  &-content {
+    max-height: calc(100vh - 100px);
+    width: 100%;
+    position: relative;
+    background-color: @background-color;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0 0 4px 4px;
+    pointer-events: auto;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    &-small {
+      width: 416px;
+      min-height: 96px;
+      padding: 15px 15px 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between !important;
+      & > span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &-error {
+        .modal-status(@danger-color);
+        i {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      &-warring {
+        .modal-status(@warring-color);
+        i {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      &-success {
+        .modal-status(@success-color);
+        i {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      &-info {
+        .modal-status(@success-color);
+        i {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  &-header {
+    -webkit-app-region: no-drag;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    border-bottom: 1px @primary-border-color solid;
+    border-radius: 4px 4px 0 0;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: @background-color;
+    &-small {
+      width: 416px;
+    }
+    &-title {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+    &-icon {
+      position: absolute;
+      right: 10px;
+      top: 7px;
+      &:hover {
+        cursor: pointer;
+        color: @danger-color;
+      }
+    }
+  }
+  &-footer {
+    text-align: center;
+  }
+}

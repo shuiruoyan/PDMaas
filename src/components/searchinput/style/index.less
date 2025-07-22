@@ -1,0 +1,31 @@
+.@{prefix}-components-search-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 4px;
+  background: @background-color;
+  color: @third-font-color;
+  border: 1px solid @primary-border-color;
+  border-radius: 3px;
+  &-icon {
+    font-size: 16px;
+  }
+  &-loading {
+    i:last-child {
+      animation: loading 1s infinite linear;
+    }
+  }
+  .@{prefix}-components-input {
+    flex-grow: 1;
+    & > span {
+      border: none !important;
+      box-shadow: none !important;
+    }
+    input {
+      width: 100%;
+      &::placeholder {
+        color: @third-font-color;
+      }
+    }
+  }
+}
